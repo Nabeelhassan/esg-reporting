@@ -1,0 +1,47 @@
+{
+  "company_name": "EcoCorp",
+  "year": 2022,
+  "location": "Europe",
+  "revenue_in_euro": 150000000,
+  "number_of_employees": 5000,
+  "ESG": {
+    "environment": {
+      "GHG_emissions_in_tons": 75000,
+      "energy_consumption_in_kwh": 100000,
+      "water_consumption_in_liters": 50000,
+      "waste_generated_in_tons": 10000,
+      "pollution_incidents_count": 5
+    },
+    "social": {
+      "employee_diversity": {
+        "men_count": 2750,
+        "women_count": 2250,
+        "minorities_count": 1000,
+        "people_with_disabilities_count": 250
+      },
+      "employee_satisfaction_index": 80,
+      "employee_turnover_rate_percentage": 10,
+      "community_engagement": {
+        "charitable_donations_in_euro": 50000,
+        "volunteer_hours_count": 1000
+      },
+      "human_rights": {
+        "incidents_count": 0,
+        "remediation": "N/A"
+      }
+    },
+    "governance": {
+      "board_diversity": {
+        "men_count": 7,
+        "women_count": 3,
+        "minorities_count": 1
+      },
+      "executive_pay_ratio": 20,
+      "political_contributions_in_euro": 0,
+      "corporate_ethics": {
+        "incidents_count": 0,
+        "remediation": "N/A"
+      }
+    }
+  }
+}
