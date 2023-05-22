@@ -1,4 +1,6 @@
-# create-svelte
+# ESG reporting
+
+This project is project is based on the CSRD (Corporate Sustainability Reporting Directive).
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
