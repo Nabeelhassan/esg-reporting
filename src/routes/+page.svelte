@@ -134,7 +134,6 @@
 	content={contentFuture}
 	year={'2030'}
 />
-<AllCompanies />
 
 <style>
 	:global(#title) {
