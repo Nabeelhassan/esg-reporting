@@ -5,5 +5,11 @@ export const entrySchema = new Schema({
 	metric_id: { type: Schema.Types.ObjectId, ref: 'Metric' },
 	company_id: { type: Schema.Types.ObjectId, ref: 'Company' },
 	year: Number,
-	value: Schema.Types.Mixed
+	value: Schema.Types.Mixed,
+	target_values: [
+		{
+			value: Schema.Types.Mixed,
+			year: Number
+		}
+	]
 });

@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'NeutralStd';
+	src: url('/fonts/NeutralStd-Medium.woff2') format('woff2');
+	font-style: 'normal';
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'NeutralStd';
+	src: url('/fonts/NeutralStd-Regular.woff2') format('woff2');
+	font-style: 'normal';
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'FamiljenGrotesk';
+	src: url('/fonts/FamiljenGrotesk-Regular.woff2') format('woff2');
+	font-style: 'normal';
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'FamiljenGrotesk';
+	src: url('/fonts/FamiljenGrotesk-Bold.woff2') format('woff2');
+	font-style: 'normal';
+	font-weight: 700;
+}
+
+p,
+button,
+a,
+text {
+	font-family: 'NeutralStd';
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'FamiljenGrotesk';
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}

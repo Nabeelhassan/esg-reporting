@@ -28,7 +28,6 @@ const createEntryInDb = async (
 ) => {
 	if (!company._id) return;
 	const entry: MongoEntryObject = allEntries[count];
-	console.log(entry);
 	const newValue =
 		typeof entry.value !== 'number'
 			? entry.value
@@ -37,6 +36,7 @@ const createEntryInDb = async (
 	const newEntry = {
 		metric_id: new mongoose.Types.ObjectId(entry.metric_id),
 		company_id: new mongoose.Types.ObjectId(company._id),
+
 		year: entry.year,
 		value: newValue
 	};

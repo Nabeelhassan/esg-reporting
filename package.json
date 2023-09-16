@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
+		"@types/d3": "^7.4.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"eslint": "^8.28.0",
@@ -30,6 +31,7 @@
 	"type": "module",
 	"dependencies": {
 		"d3": "^7.8.4",
+		"d3-voronoi-treemap": "^1.1.2",
 		"mongoose": "^7.1.0"
 	}
 }

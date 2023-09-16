@@ -3,6 +3,7 @@ const { Schema } = mongoose;
 
 export const companySchema = new Schema({
 	name: String,
-	sector: String,
-	entries: [{ type: Schema.Types.ObjectId, ref: 'Entry' }]
+	industry_id: { type: Schema.Types.ObjectId, ref: 'Industry' },
+	entries: [{ type: Schema.Types.ObjectId, ref: 'Entry' }],
+	score_id: { type: Schema.Types.ObjectId, ref: 'Score' }
 });
