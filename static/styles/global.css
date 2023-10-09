@@ -1,3 +1,13 @@
+:root {
+	--theme-color: #041235;
+	--text-color: #fff;
+	--blue-color: #179eff;
+	--color-environment: #bcda7e;
+	--color-social: #6257e2;
+	--color-social-opacity: #6257e260;
+	--color-governance: #2ac28b;
+}
+
 p,
 button,
 a,
@@ -14,6 +24,19 @@ h5,
 h6 {
 	font-family: 'FamiljenGrotesk';
 	font-weight: 400;
+}
+
+p,
+button,
+a,
+text,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--text-color);
 }
 
 * {

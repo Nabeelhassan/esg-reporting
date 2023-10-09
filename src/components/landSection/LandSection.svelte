@@ -1,16 +1,17 @@
 <script lang="ts">
 	export let data;
 	export let companyData;
+	export let year;
+	export let content;
 	export let radialGradientString: string;
-	console.log(radialGradientString);
 </script>
 
 <section class="land" style="background:{radialGradientString}">
 	<div class="titles">
 		<h1><b>{companyData.name}</b> ESG Report</h1>
-		<h1><b>{companyData.esgScore}</b>/1 ESG Score 2025</h1>
+		<h1><b>{companyData.score.ESG[year]}</b>/1 ESG Score 2025</h1>
 	</div>
-	<h2>{companyData.tag}</h2>
+	<h2>{content.tag}</h2>
 </section>
 
 <style>
@@ -27,6 +28,10 @@
 		& h1:first-child {
 			margin-right: 5vw;
 		}
+		& h1,
+		b {
+			color: #000;
+		}
 	}
 	h1 {
 		text-transform: uppercase;
@@ -38,5 +43,6 @@
 		line-height: 1;
 		width: 80%;
 		margin: 0;
+		color: black;
 	}
 </style>

@@ -1,0 +1,5715 @@
+[
+	{
+		"name": "Nike",
+		"industry": "Textiles & Apparel",
+		"values": [
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Total energy consumption non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 265206,
+				"values": {
+					"2025": { "value": 341918, "score": 0.1 },
+					"2026": { "value": 265206, "score": 0.39 },
+					"2030": { "value": 130546, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from coal and coal products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 13131,
+				"values": {
+					"2025": { "value": 15315, "score": 0.08 },
+					"2026": { "value": 13131, "score": 0.24 },
+					"2030": { "value": 6728, "score": 0.73 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from crude oil and petroleum products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 18686,
+				"values": {
+					"2025": { "value": 22742, "score": 0.26 },
+					"2026": { "value": 18686, "score": 0.43 },
+					"2030": { "value": 6224, "score": 0.92 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from natural gas",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 207938,
+				"values": {
+					"2025": { "value": 215497, "score": 0.37 },
+					"2026": { "value": 207938, "score": 0.41 },
+					"2030": { "value": 88931, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from other non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 19835,
+				"values": {
+					"2025": { "value": 20235, "score": 0.46 },
+					"2026": { "value": 19835, "score": 0.47 },
+					"2030": { "value": 6363, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 5616,
+				"values": {
+					"2025": { "value": 6142, "score": 0.1 },
+					"2026": { "value": 5616, "score": 0.2 },
+					"2030": { "value": 3052, "score": 0.71 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Total energy consumption renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 550116,
+				"values": {
+					"2025": { "value": 684700, "score": 0.16 },
+					"2026": { "value": 550116, "score": 0.37 },
+					"2030": { "value": 305744, "score": 0.74 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Fuel consumption for renewable sources (including biomass, biogas, nonfossil fuel waste, hydrogen from renewable sources, etc.)",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 2709,
+				"values": {
+					"2025": { "value": 3318, "score": 0.18 },
+					"2026": { "value": 2709, "score": 0.39 },
+					"2030": { "value": 1170, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 526288,
+				"values": {
+					"2025": { "value": 652895, "score": 0 },
+					"2026": { "value": 526288, "score": 0.24 },
+					"2030": { "value": 247914, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of self-generated non-fuel renewable energy",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 21119,
+				"values": {
+					"2025": { "value": 27441, "score": 0.07 },
+					"2026": { "value": 21119, "score": 0.34 },
+					"2030": { "value": 8456, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Energy consumption total",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 815322,
+				"values": {
+					"2025": { "value": 841645, "score": 0.43 },
+					"2026": { "value": 815322, "score": 0.45 },
+					"2030": { "value": 483419, "score": 0.75 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Share of renewable energy from total",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 28.6,
+				"values": {
+					"2025": { "value": 37.02, "score": 1 },
+					"2026": { "value": 28.6, "score": 0.72 },
+					"2030": { "value": 16.62, "score": 0.31 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyIntensity",
+				"name": "Energy intensity based on net revenue",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 20,
+				"values": {
+					"2025": { "value": 25.44, "score": 0.28 },
+					"2026": { "value": 20, "score": 0.49 },
+					"2030": { "value": 8.51, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgTotal",
+				"name": "Total GHG emissions",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 17814559,
+				"values": {
+					"2025": { "value": 18928032, "score": 0.31 },
+					"2026": { "value": 17814559, "score": 0.36 },
+					"2030": { "value": 7390431, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope1",
+				"name": "Total GHG Scope 1",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 50868,
+				"values": {
+					"2025": { "value": 61304, "score": 0.14 },
+					"2026": { "value": 50868, "score": 0.34 },
+					"2030": { "value": 19959, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope2",
+				"name": "Total GHG Scope 2",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 24900,
+				"values": {
+					"2025": { "value": 28591, "score": 0.16 },
+					"2026": { "value": 24900, "score": 0.31 },
+					"2030": { "value": 9064, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Total GHG Scope 3",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 17738791,
+				"values": {
+					"2025": { "value": 21903577, "score": 0.17 },
+					"2026": { "value": 17738791, "score": 0.36 },
+					"2030": { "value": 8535413, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Purchased goods and services",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 8476358,
+				"values": {
+					"2025": { "value": 9316181, "score": 0.32 },
+					"2026": { "value": 8476358, "score": 0.4 },
+					"2030": { "value": 4884427, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Fuel and energy-related activities",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 15062,
+				"values": {
+					"2025": { "value": 17925, "score": 0.28 },
+					"2026": { "value": 15062, "score": 0.43 },
+					"2030": { "value": 4661, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Waste generated in operations",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 1999,
+				"values": {
+					"2025": { "value": 2149, "score": 0.4 },
+					"2026": { "value": 1999, "score": 0.47 },
+					"2030": { "value": 1135, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Use of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 7968735,
+				"values": {
+					"2025": { "value": 8487270, "score": 0.18 },
+					"2026": { "value": 7968735, "score": 0.25 },
+					"2030": { "value": 2407462, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "End-of-life treatment of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 618851,
+				"values": {
+					"2025": { "value": 626335, "score": 0.44 },
+					"2026": { "value": 618851, "score": 0.45 },
+					"2030": { "value": 250924, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Upstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 644305,
+				"values": {
+					"2025": { "value": 772503, "score": 0.26 },
+					"2026": { "value": 644305, "score": 0.42 },
+					"2030": { "value": 212971, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Downstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 85146,
+				"values": {
+					"2025": { "value": 110109, "score": 0.13 },
+					"2026": { "value": 85146, "score": 0.39 },
+					"2030": { "value": 47530, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Business travels",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 13297,
+				"values": {
+					"2025": { "value": 15575, "score": 0.11 },
+					"2026": { "value": 13297, "score": 0.3 },
+					"2030": { "value": 5404, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Employee commuting",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 98.473,
+				"values": {
+					"2025": { "value": 119.92, "score": 0.27 },
+					"2026": { "value": 98.473, "score": 0.43 },
+					"2030": { "value": 34.08, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgIntensity",
+				"name": "GHG intensity based on net revenue",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 0.000382,
+				"values": {
+					"2025": { "value": 0, "score": 1 },
+					"2026": { "value": 0.000382, "score": 0 },
+					"2030": { "value": 0, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterConsumption",
+				"name": "Total water consumption",
+				"unit": "million liters",
+				"target_value_description": "Lower is better",
+				"value": 21233,
+				"values": {
+					"2025": { "value": 22951, "score": 0.23 },
+					"2026": { "value": 21233, "score": 0.3 },
+					"2030": { "value": 12013, "score": 0.7 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterIntensity",
+				"name": "Water intensity per net revenue",
+				"unit": "liters per one million dollars",
+				"target_value_description": "Higher is better",
+				"value": 0.454,
+				"values": {
+					"2025": { "value": 0.54, "score": 0.88 },
+					"2026": { "value": 0.454, "score": 0.71 },
+					"2030": { "value": 0.15, "score": 0.1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterRestoration",
+				"name": "Water restored",
+				"unit": "million liters",
+				"target_value_description": "Higher is better",
+				"value": 3720,
+				"values": {
+					"2025": { "value": 4408, "score": 0.71 },
+					"2026": { "value": 3720, "score": 0.56 },
+					"2030": { "value": 1554, "score": 0.1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "biodiversityAndEcosystems",
+				"pillar_subcategory": "impactedSpecies",
+				"name": "Impacted species change in habitat",
+				"unit": "boolean",
+				"target_value_description": "False is good",
+				"value": false,
+				"values": {
+					"2025": { "value": false, "score": 1 },
+					"2026": { "value": false, "score": 1 },
+					"2030": { "value": false, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceUseAndCircularEconomy",
+				"name": "Increase in circular design",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 7.94,
+				"values": {
+					"2025": { "value": 8.52, "score": 0.57 },
+					"2026": { "value": 7.94, "score": 0.51 },
+					"2030": { "value": 4.21, "score": 0.15 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 700,
+				"values": {
+					"2025": { "value": 716.9, "score": 0.47 },
+					"2026": { "value": 700, "score": 0.49 },
+					"2030": { "value": 340.2, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 40,
+				"values": {
+					"2025": { "value": 44.3, "score": 0.82 },
+					"2026": { "value": 40, "score": 0.71 },
+					"2030": { "value": 15.46, "score": 0.11 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 800,
+				"values": {
+					"2025": { "value": 942.8, "score": 0.23 },
+					"2026": { "value": 800, "score": 0.38 },
+					"2030": { "value": 306.3, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.\r\n",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 50,
+				"values": {
+					"2025": { "value": 54.57, "score": 0.57 },
+					"2026": { "value": 50, "score": 0.5 },
+					"2030": { "value": 21.33, "score": 0.05 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total amount of waste generated by own operations",
+				"unit": "tonnes",
+				"target_value_description": "Lower is better",
+				"value": 206999,
+				"values": {
+					"2025": { "value": 240131, "score": 0.17 },
+					"2026": { "value": 206999, "score": 0.32 },
+					"2030": { "value": 74460, "score": 0.93 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The total amount of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 62425,
+				"values": {
+					"2025": { "value": 65238, "score": 0.01 },
+					"2026": { "value": 62425, "score": 0.07 },
+					"2030": { "value": 35655, "score": 0.62 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The percentage of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 30.1,
+				"values": {
+					"2025": { "value": 35.32, "score": 0.2 },
+					"2026": { "value": 30.1, "score": 0.35 },
+					"2030": { "value": 11.39, "score": 0.92 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 71407,
+				"values": {
+					"2025": { "value": 73646, "score": 0.33 },
+					"2026": { "value": 71407, "score": 0.36 },
+					"2030": { "value": 37607, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of male employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 35574,
+				"values": {
+					"2025": { "value": 44666, "score": 0.11 },
+					"2026": { "value": 35574, "score": 0.34 },
+					"2030": { "value": 12582, "score": 0.92 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of male employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 49.8,
+				"values": {
+					"2025": { "value": 60.9, "score": 0.04 },
+					"2026": { "value": 49.8, "score": 0.25 },
+					"2030": { "value": 20.51, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 35833,
+				"values": {
+					"2025": { "value": 45720, "score": 0 },
+					"2026": { "value": 35833, "score": 0.27 },
+					"2030": { "value": 11505, "score": 0.93 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of female employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 50.2,
+				"values": {
+					"2025": { "value": 52.8, "score": 0.3 },
+					"2026": { "value": 50.2, "score": 0.36 },
+					"2030": { "value": 28.92, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total difference male female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 259,
+				"values": {
+					"2025": { "value": 268.4, "score": 0.19 },
+					"2026": { "value": 259, "score": 0.23 },
+					"2030": { "value": 128.2, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage difference male female employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.4,
+				"values": {
+					"2025": { "value": 0.45, "score": 0.29 },
+					"2026": { "value": 0.4, "score": 0.4 },
+					"2030": { "value": 0.24, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 54866,
+				"values": {
+					"2025": { "value": 58454, "score": 0.43 },
+					"2026": { "value": 54866, "score": 0.48 },
+					"2030": { "value": 29268, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of male full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 27607,
+				"values": {
+					"2025": { "value": 31055, "score": 0.26 },
+					"2026": { "value": 27607, "score": 0.36 },
+					"2030": { "value": 15711, "score": 0.72 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of male full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 50.3,
+				"values": {
+					"2025": { "value": 65.28, "score": 0.03 },
+					"2026": { "value": 50.3, "score": 0.3 },
+					"2030": { "value": 29.07, "score": 0.68 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 27259,
+				"values": {
+					"2025": { "value": 29833, "score": 0.33 },
+					"2026": { "value": 27259, "score": 0.4 },
+					"2030": { "value": 10632, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of female full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 49.7,
+				"values": {
+					"2025": { "value": 55.48, "score": 0.14 },
+					"2026": { "value": 49.7, "score": 0.27 },
+					"2030": { "value": 25.96, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total difference of male female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 348,
+				"values": {
+					"2025": { "value": 430.6, "score": 0.2 },
+					"2026": { "value": 348, "score": 0.39 },
+					"2030": { "value": 163.8, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage difference of male female full-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.6,
+				"values": {
+					"2025": { "value": 0.61, "score": 0.35 },
+					"2026": { "value": 0.6, "score": 0.37 },
+					"2030": { "value": 0.3, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 16541,
+				"values": {
+					"2025": { "value": 20855, "score": 0 },
+					"2026": { "value": 16541, "score": 0.25 },
+					"2030": { "value": 5812, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of male part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 8226,
+				"values": {
+					"2025": { "value": 10207, "score": 0.21 },
+					"2026": { "value": 8226, "score": 0.45 },
+					"2030": { "value": 4223, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of male part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 49.7,
+				"values": {
+					"2025": { "value": 51.85, "score": 0.37 },
+					"2026": { "value": 49.7, "score": 0.41 },
+					"2030": { "value": 28.45, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 8315,
+				"values": {
+					"2025": { "value": 8710, "score": 0.31 },
+					"2026": { "value": 8315, "score": 0.36 },
+					"2030": { "value": 3157, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of female part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 50.3,
+				"values": {
+					"2025": { "value": 58.27, "score": 0.15 },
+					"2026": { "value": 50.3, "score": 0.29 },
+					"2030": { "value": 25.54, "score": 0.74 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total difference of male female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 89,
+				"values": {
+					"2025": { "value": 91, "score": 0.43 },
+					"2026": { "value": 89, "score": 0.45 },
+					"2030": { "value": 47.37, "score": 0.81 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage difference of male female part-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.6,
+				"values": {
+					"2025": { "value": 0.73, "score": 0.07 },
+					"2026": { "value": 0.6, "score": 0.3 },
+					"2030": { "value": 0.25, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 429,
+				"values": {
+					"2025": { "value": 531.9, "score": 0.14 },
+					"2026": { "value": 429, "score": 0.37 },
+					"2030": { "value": 175.4, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of male top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 240,
+				"values": {
+					"2025": { "value": 261.4, "score": 0.39 },
+					"2026": { "value": 240, "score": 0.45 },
+					"2030": { "value": 72.1, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of male top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 55.9,
+				"values": {
+					"2025": { "value": 59.8, "score": 0.28 },
+					"2026": { "value": 55.9, "score": 0.35 },
+					"2030": { "value": 20.62, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of female top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 189,
+				"values": {
+					"2025": { "value": 213.3, "score": 0.08 },
+					"2026": { "value": 189, "score": 0.21 },
+					"2030": { "value": 92.4, "score": 0.75 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of female top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 44.1,
+				"values": {
+					"2025": { "value": 48.66, "score": 0.35 },
+					"2026": { "value": 44.1, "score": 0.43 },
+					"2030": { "value": 14.29, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "healtAndSafety",
+				"name": "Rate of recordable work-related accidents",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 0.92,
+				"values": {
+					"2025": { "value": 1, "score": 0.17 },
+					"2026": { "value": 0.92, "score": 0.26 },
+					"2030": { "value": 0.3, "score": 0.91 }
+				}
+			}
+		],
+		"score": {
+			"Environment": { "2025": 0.35, "2026": 0.41, "2030": 0.76 },
+			"Social": { "2025": 0.22, "2026": 0.35, "2030": 0.86 },
+			"Governance": { "2025": 0.28, "2026": 0.48, "2030": 0.78 },
+			"ESG": { "2025": 0.28, "2026": 0.41, "2030": 0.8 },
+			"categoryScores": {
+				"climateChange": { "2025": 0.28, "2026": 0.37, "2030": 0.86, "group": "Environment" },
+				"waterAndMarineSources": {
+					"2025": 0.61,
+					"2026": 0.52,
+					"2030": 0.3,
+					"group": "Environment"
+				},
+				"biodiversityAndEcosystems": { "2025": 1, "2026": 1, "2030": 1, "group": "Environment" },
+				"resourceUseAndCircularEconomy": {
+					"2025": 0.38,
+					"2026": 0.42,
+					"2030": 0.57,
+					"group": "Environment"
+				},
+				"ownWorkforce": { "2025": 0.22, "2026": 0.35, "2030": 0.86, "group": "Social" }
+			}
+		}
+	},
+	{
+		"name": "Adidas",
+		"industry": "Textiles & Apparel",
+		"values": [
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Total energy consumption non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 290445,
+				"values": {
+					"2025": { "value": 366672, "score": 0 },
+					"2026": { "value": 290445, "score": 0.29 },
+					"2030": { "value": 169418, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from coal and coal products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 11945,
+				"values": {
+					"2025": { "value": 13329, "score": 0.23 },
+					"2026": { "value": 11945, "score": 0.33 },
+					"2030": { "value": 5164, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from crude oil and petroleum products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 15202,
+				"values": {
+					"2025": { "value": 15907, "score": 0.54 },
+					"2026": { "value": 15202, "score": 0.57 },
+					"2030": { "value": 7114, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from natural gas",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 226192,
+				"values": {
+					"2025": { "value": 290093, "score": 0 },
+					"2026": { "value": 226192, "score": 0.32 },
+					"2030": { "value": 87815, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from other non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 24514,
+				"values": {
+					"2025": { "value": 31857, "score": 0 },
+					"2026": { "value": 24514, "score": 0.29 },
+					"2030": { "value": 8011, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 4856,
+				"values": {
+					"2025": { "value": 5600, "score": 0.2 },
+					"2026": { "value": 4856, "score": 0.35 },
+					"2030": { "value": 2831, "score": 0.75 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Total energy consumption renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 649410,
+				"values": {
+					"2025": { "value": 715642, "score": 0.12 },
+					"2026": { "value": 649410, "score": 0.22 },
+					"2030": { "value": 339335, "score": 0.69 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Fuel consumption for renewable sources (including biomass, biogas, nonfossil fuel waste, hydrogen from renewable sources, etc.)",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 2137,
+				"values": {
+					"2025": { "value": 2685, "score": 0.39 },
+					"2026": { "value": 2137, "score": 0.58 },
+					"2030": { "value": 916, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 457298,
+				"values": {
+					"2025": { "value": 563064, "score": 0.17 },
+					"2026": { "value": 457298, "score": 0.37 },
+					"2030": { "value": 148002, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of self-generated non-fuel renewable energy",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 25001,
+				"values": {
+					"2025": { "value": 29067, "score": 0 },
+					"2026": { "value": 25001, "score": 0.17 },
+					"2030": { "value": 9435, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Energy consumption total",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 899260,
+				"values": {
+					"2025": { "value": 1131072, "score": 0.18 },
+					"2026": { "value": 899260, "score": 0.38 },
+					"2030": { "value": 495049, "score": 0.74 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Share of renewable energy from total",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 17.78,
+				"values": {
+					"2025": { "value": 22.32, "score": 0.5 },
+					"2026": { "value": 17.78, "score": 0.35 },
+					"2030": { "value": 8.37, "score": 0.03 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyIntensity",
+				"name": "Energy intensity based on net revenue",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 19.89,
+				"values": {
+					"2025": { "value": 21.74, "score": 0.42 },
+					"2026": { "value": 19.89, "score": 0.49 },
+					"2030": { "value": 6.03, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgTotal",
+				"name": "Total GHG emissions",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 20604748,
+				"values": {
+					"2025": { "value": 25254053, "score": 0 },
+					"2026": { "value": 20604748, "score": 0.23 },
+					"2030": { "value": 8772077, "score": 0.81 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope1",
+				"name": "Total GHG Scope 1",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 63956,
+				"values": {
+					"2025": { "value": 68543, "score": 0 },
+					"2026": { "value": 63956, "score": 0.09 },
+					"2030": { "value": 21788, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope2",
+				"name": "Total GHG Scope 2",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 25106,
+				"values": {
+					"2025": { "value": 32464, "score": 0 },
+					"2026": { "value": 25106, "score": 0.3 },
+					"2030": { "value": 7947, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Total GHG Scope 3",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 14205427,
+				"values": {
+					"2025": { "value": 15379540, "score": 0.47 },
+					"2026": { "value": 14205427, "score": 0.52 },
+					"2030": { "value": 4936943, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Purchased goods and services",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 10173120,
+				"values": {
+					"2025": { "value": 12323590, "score": 0 },
+					"2026": { "value": 10173120, "score": 0.23 },
+					"2030": { "value": 3346342, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Fuel and energy-related activities",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 18303,
+				"values": {
+					"2025": { "value": 21032, "score": 0.11 },
+					"2026": { "value": 18303, "score": 0.26 },
+					"2030": { "value": 7197, "score": 0.86 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Waste generated in operations",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 2427,
+				"values": {
+					"2025": { "value": 3080, "score": 0 },
+					"2026": { "value": 2427, "score": 0.28 },
+					"2030": { "value": 1114, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Use of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 7389268,
+				"values": {
+					"2025": { "value": 8350497, "score": 0.2 },
+					"2026": { "value": 7389268, "score": 0.33 },
+					"2030": { "value": 4044807, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "End-of-life treatment of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 521045,
+				"values": {
+					"2025": { "value": 618485, "score": 0.45 },
+					"2026": { "value": 521045, "score": 0.59 },
+					"2030": { "value": 310841, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Upstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 415739,
+				"values": {
+					"2025": { "value": 523556, "score": 0.57 },
+					"2026": { "value": 415739, "score": 0.7 },
+					"2030": { "value": 190135, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Downstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 102000,
+				"values": {
+					"2025": { "value": 109474, "score": 0.13 },
+					"2026": { "value": 102000, "score": 0.21 },
+					"2030": { "value": 50591, "score": 0.75 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Business travels",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 11124,
+				"values": {
+					"2025": { "value": 14167, "score": 0.23 },
+					"2026": { "value": 11124, "score": 0.48 },
+					"2030": { "value": 4855, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Employee commuting",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 92.19,
+				"values": {
+					"2025": { "value": 102.5, "score": 0.4 },
+					"2026": { "value": 92.19, "score": 0.47 },
+					"2030": { "value": 37.12, "score": 0.87 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgIntensity",
+				"name": "GHG intensity based on net revenue",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 0,
+				"values": {
+					"2025": { "value": 0, "score": 1 },
+					"2026": { "value": 0, "score": 1 },
+					"2030": { "value": 0, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterConsumption",
+				"name": "Total water consumption",
+				"unit": "million liters",
+				"target_value_description": "Lower is better",
+				"value": 23352,
+				"values": {
+					"2025": { "value": 28263, "score": 0 },
+					"2026": { "value": 23352, "score": 0.21 },
+					"2030": { "value": 9296, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterIntensity",
+				"name": "Water intensity per net revenue",
+				"unit": "liters per one million dollars",
+				"target_value_description": "Higher is better",
+				"value": 0.43,
+				"values": {
+					"2025": { "value": 0.52, "score": 0.84 },
+					"2026": { "value": 0.43, "score": 0.66 },
+					"2030": { "value": 0.14, "score": 0.08 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterRestoration",
+				"name": "Water restored",
+				"unit": "million liters",
+				"target_value_description": "Higher is better",
+				"value": 3085,
+				"values": {
+					"2025": { "value": 3790, "score": 0.58 },
+					"2026": { "value": 3085, "score": 0.43 },
+					"2030": { "value": 1102, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "biodiversityAndEcosystems",
+				"pillar_subcategory": "impactedSpecies",
+				"name": "Impacted species change in habitat",
+				"unit": "boolean",
+				"target_value_description": "False is good",
+				"value": true,
+				"values": {
+					"2025": { "value": true, "score": 1 },
+					"2026": { "value": true, "score": 1 },
+					"2030": { "value": true, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceUseAndCircularEconomy",
+				"name": "Increase in circular design",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 10.19,
+				"values": {
+					"2025": { "value": 12.96, "score": 1 },
+					"2026": { "value": 10.19, "score": 0.73 },
+					"2030": { "value": 4.45, "score": 0.17 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 676.3,
+				"values": {
+					"2025": { "value": 824.6, "score": 0.36 },
+					"2026": { "value": 676.3, "score": 0.52 },
+					"2030": { "value": 228.2, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 30.22,
+				"values": {
+					"2025": { "value": 33.85, "score": 0.56 },
+					"2026": { "value": 30.22, "score": 0.47 },
+					"2030": { "value": 11.08, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 893,
+				"values": {
+					"2025": { "value": 1130.1, "score": 0.03 },
+					"2026": { "value": 893, "score": 0.28 },
+					"2030": { "value": 277.8, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.\r\n",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 50.91,
+				"values": {
+					"2025": { "value": 66.03, "score": 0.75 },
+					"2026": { "value": 50.91, "score": 0.51 },
+					"2030": { "value": 28.2, "score": 0.16 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total amount of waste generated by own operations",
+				"unit": "tonnes",
+				"target_value_description": "Lower is better",
+				"value": 156233,
+				"values": {
+					"2025": { "value": 202443, "score": 0.34 },
+					"2026": { "value": 156233, "score": 0.55 },
+					"2030": { "value": 79497, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The total amount of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 48212,
+				"values": {
+					"2025": { "value": 57389, "score": 0.17 },
+					"2026": { "value": 48212, "score": 0.36 },
+					"2030": { "value": 17599, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The percentage of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 34.72,
+				"values": {
+					"2025": { "value": 41.77, "score": 0 },
+					"2026": { "value": 34.72, "score": 0.21 },
+					"2030": { "value": 14.18, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 79321,
+				"values": {
+					"2025": { "value": 89562, "score": 0.12 },
+					"2026": { "value": 79321, "score": 0.25 },
+					"2030": { "value": 29733, "score": 0.93 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of male employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 27317,
+				"values": {
+					"2025": { "value": 34826, "score": 0.36 },
+					"2026": { "value": 27317, "score": 0.55 },
+					"2030": { "value": 9437, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of male employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 33.68,
+				"values": {
+					"2025": { "value": 42.17, "score": 0.4 },
+					"2026": { "value": 33.68, "score": 0.57 },
+					"2030": { "value": 11.57, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 25361,
+				"values": {
+					"2025": { "value": 30659, "score": 0.41 },
+					"2026": { "value": 25361, "score": 0.55 },
+					"2030": { "value": 12581, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of female employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 48.19,
+				"values": {
+					"2025": { "value": 54.91, "score": 0.26 },
+					"2026": { "value": 48.19, "score": 0.4 },
+					"2030": { "value": 25.45, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total difference male female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 295.3,
+				"values": {
+					"2025": { "value": 309.5, "score": 0 },
+					"2026": { "value": 295.3, "score": 0.07 },
+					"2030": { "value": 149.3, "score": 0.73 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage difference male female employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.47,
+				"values": {
+					"2025": { "value": 0.48, "score": 0.21 },
+					"2026": { "value": 0.47, "score": 0.24 },
+					"2030": { "value": 0.24, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 44066,
+				"values": {
+					"2025": { "value": 46504, "score": 0.62 },
+					"2026": { "value": 44066, "score": 0.66 },
+					"2030": { "value": 24369, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of male full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 23866,
+				"values": {
+					"2025": { "value": 24248, "score": 0.46 },
+					"2026": { "value": 23866, "score": 0.48 },
+					"2030": { "value": 7570, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of male full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 58,
+				"values": {
+					"2025": { "value": 66.72, "score": 0 },
+					"2026": { "value": 58, "score": 0.16 },
+					"2030": { "value": 21.47, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 34125,
+				"values": {
+					"2025": { "value": 37993, "score": 0.09 },
+					"2026": { "value": 34125, "score": 0.2 },
+					"2030": { "value": 17512, "score": 0.68 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of female full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 54.01,
+				"values": {
+					"2025": { "value": 56.79, "score": 0.12 },
+					"2026": { "value": 54.01, "score": 0.18 },
+					"2030": { "value": 27.55, "score": 0.73 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total difference of male female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 280.8,
+				"values": {
+					"2025": { "value": 287.2, "score": 0.53 },
+					"2026": { "value": 280.8, "score": 0.55 },
+					"2030": { "value": 85.3, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage difference of male female full-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.47,
+				"values": {
+					"2025": { "value": 0.5, "score": 0.54 },
+					"2026": { "value": 0.47, "score": 0.6 },
+					"2030": { "value": 0.25, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 16611,
+				"values": {
+					"2025": { "value": 19522, "score": 0.08 },
+					"2026": { "value": 16611, "score": 0.25 },
+					"2030": { "value": 6930, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of male part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 9675,
+				"values": {
+					"2025": { "value": 10437, "score": 0.19 },
+					"2026": { "value": 9675, "score": 0.28 },
+					"2030": { "value": 4011, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of male part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 39.22,
+				"values": {
+					"2025": { "value": 49.87, "score": 0.4 },
+					"2026": { "value": 39.22, "score": 0.62 },
+					"2030": { "value": 22.23, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 5925,
+				"values": {
+					"2025": { "value": 6914, "score": 0.52 },
+					"2026": { "value": 5925, "score": 0.63 },
+					"2030": { "value": 2989, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of female part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 46.03,
+				"values": {
+					"2025": { "value": 46.56, "score": 0.36 },
+					"2026": { "value": 46.03, "score": 0.37 },
+					"2030": { "value": 22.81, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total difference of male female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 111.33,
+				"values": {
+					"2025": { "value": 128.2, "score": 0.1 },
+					"2026": { "value": 111.33, "score": 0.25 },
+					"2030": { "value": 42, "score": 0.86 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage difference of male female part-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.61,
+				"values": {
+					"2025": { "value": 0.66, "score": 0.19 },
+					"2026": { "value": 0.61, "score": 0.28 },
+					"2030": { "value": 0.26, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 538.1,
+				"values": {
+					"2025": { "value": 552.4, "score": 0.09 },
+					"2026": { "value": 538.1, "score": 0.12 },
+					"2030": { "value": 303.1, "score": 0.67 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of male top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 148.9,
+				"values": {
+					"2025": { "value": 179.3, "score": 0.65 },
+					"2026": { "value": 148.9, "score": 0.75 },
+					"2030": { "value": 75, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of male top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 44.2,
+				"values": {
+					"2025": { "value": 50.93, "score": 0.44 },
+					"2026": { "value": 44.2, "score": 0.56 },
+					"2030": { "value": 19.05, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of female top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 186.4,
+				"values": {
+					"2025": { "value": 220.1, "score": 0.04 },
+					"2026": { "value": 186.4, "score": 0.23 },
+					"2030": { "value": 111.7, "score": 0.64 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of female top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 32.04,
+				"values": {
+					"2025": { "value": 40.06, "score": 0.51 },
+					"2026": { "value": 32.04, "score": 0.65 },
+					"2030": { "value": 12.78, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "healtAndSafety",
+				"name": "Rate of recordable work-related accidents",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 0.89,
+				"values": {
+					"2025": { "value": 1.15, "score": 0.01 },
+					"2026": { "value": 0.89, "score": 0.29 },
+					"2030": { "value": 0.5, "score": 0.7 }
+				}
+			}
+		],
+		"score": {
+			"Environment": { "2025": 0.31, "2026": 0.42, "2030": 0.77 },
+			"Social": { "2025": 0.29, "2026": 0.4, "2030": 0.87 },
+			"Governance": { "2025": 0.26, "2026": 0.54, "2030": 0.74 },
+			"ESG": { "2025": 0.29, "2026": 0.45, "2030": 0.79 },
+			"categoryScores": {
+				"climateChange": { "2025": 0.23, "2026": 0.39, "2030": 0.85, "group": "Environment" },
+				"waterAndMarineSources": {
+					"2025": 0.47,
+					"2026": 0.43,
+					"2030": 0.3,
+					"group": "Environment"
+				},
+				"biodiversityAndEcosystems": { "2025": 1, "2026": 1, "2030": 1, "group": "Environment" },
+				"resourceUseAndCircularEconomy": {
+					"2025": 0.4,
+					"2026": 0.45,
+					"2030": 0.63,
+					"group": "Environment"
+				},
+				"ownWorkforce": { "2025": 0.29, "2026": 0.4, "2030": 0.87, "group": "Social" }
+			}
+		}
+	},
+	{
+		"name": "H&M",
+		"industry": "Textiles & Apparel",
+		"values": [
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Total energy consumption non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 276043,
+				"values": {
+					"2025": { "value": 300071, "score": 0.26 },
+					"2026": { "value": 276043, "score": 0.35 },
+					"2030": { "value": 126324, "score": 0.92 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from coal and coal products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 9918,
+				"values": {
+					"2025": { "value": 11927, "score": 0.33 },
+					"2026": { "value": 9918, "score": 0.49 },
+					"2030": { "value": 3175, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from crude oil and petroleum products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 16186,
+				"values": {
+					"2025": { "value": 19104, "score": 0.41 },
+					"2026": { "value": 16186, "score": 0.53 },
+					"2030": { "value": 5878, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from natural gas",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 216173,
+				"values": {
+					"2025": { "value": 254057, "score": 0.18 },
+					"2026": { "value": 216173, "score": 0.37 },
+					"2030": { "value": 103170, "score": 0.92 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from other non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 24924,
+				"values": {
+					"2025": { "value": 29385, "score": 0.1 },
+					"2026": { "value": 24924, "score": 0.27 },
+					"2030": { "value": 8535, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 4647,
+				"values": {
+					"2025": { "value": 5837, "score": 0.16 },
+					"2026": { "value": 4647, "score": 0.39 },
+					"2030": { "value": 1573, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Total energy consumption renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 681710,
+				"values": {
+					"2025": { "value": 793666, "score": 0 },
+					"2026": { "value": 681710, "score": 0.17 },
+					"2030": { "value": 335469, "score": 0.69 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Fuel consumption for renewable sources (including biomass, biogas, nonfossil fuel waste, hydrogen from renewable sources, etc.)",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 2963,
+				"values": {
+					"2025": { "value": 3450, "score": 0.13 },
+					"2026": { "value": 2963, "score": 0.3 },
+					"2030": { "value": 894, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 371473,
+				"values": {
+					"2025": { "value": 426177, "score": 0.42 },
+					"2026": { "value": 371473, "score": 0.53 },
+					"2030": { "value": 177520, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of self-generated non-fuel renewable energy",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 13162,
+				"values": {
+					"2025": { "value": 15443, "score": 0.58 },
+					"2026": { "value": 13162, "score": 0.68 },
+					"2030": { "value": 5776, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Energy consumption total",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 751994,
+				"values": {
+					"2025": { "value": 970939, "score": 0.32 },
+					"2026": { "value": 751994, "score": 0.51 },
+					"2030": { "value": 312901, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Share of renewable energy from total",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 33.87,
+				"values": {
+					"2025": { "value": 33.99, "score": 0.9 },
+					"2026": { "value": 33.87, "score": 0.89 },
+					"2030": { "value": 18.26, "score": 0.37 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyIntensity",
+				"name": "Energy intensity based on net revenue",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 19.76,
+				"values": {
+					"2025": { "value": 22.71, "score": 0.39 },
+					"2026": { "value": 19.76, "score": 0.49 },
+					"2030": { "value": 6.87, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgTotal",
+				"name": "Total GHG emissions",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 14943942,
+				"values": {
+					"2025": { "value": 18328489, "score": 0.34 },
+					"2026": { "value": 14943942, "score": 0.51 },
+					"2030": { "value": 8567955, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope1",
+				"name": "Total GHG Scope 1",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 38884,
+				"values": {
+					"2025": { "value": 38957, "score": 0.57 },
+					"2026": { "value": 38884, "score": 0.57 },
+					"2030": { "value": 16811, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope2",
+				"name": "Total GHG Scope 2",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 24067,
+				"values": {
+					"2025": { "value": 25077, "score": 0.3 },
+					"2026": { "value": 24067, "score": 0.34 },
+					"2030": { "value": 11676, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Total GHG Scope 3",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 18972047,
+				"values": {
+					"2025": { "value": 22322235, "score": 0.15 },
+					"2026": { "value": 18972047, "score": 0.31 },
+					"2030": { "value": 7670008, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Purchased goods and services",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 8621001,
+				"values": {
+					"2025": { "value": 10378328, "score": 0.2 },
+					"2026": { "value": 8621001, "score": 0.39 },
+					"2030": { "value": 4242978, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Fuel and energy-related activities",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 9533,
+				"values": {
+					"2025": { "value": 10263, "score": 0.69 },
+					"2026": { "value": 9533, "score": 0.73 },
+					"2030": { "value": 4970, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Waste generated in operations",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 2073,
+				"values": {
+					"2025": { "value": 2358, "score": 0.31 },
+					"2026": { "value": 2073, "score": 0.44 },
+					"2030": { "value": 779, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Use of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 6449944,
+				"values": {
+					"2025": { "value": 7175175, "score": 0.35 },
+					"2026": { "value": 6449944, "score": 0.45 },
+					"2030": { "value": 3324716, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "End-of-life treatment of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 716857,
+				"values": {
+					"2025": { "value": 730888, "score": 0.3 },
+					"2026": { "value": 716857, "score": 0.32 },
+					"2030": { "value": 419429, "score": 0.73 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Upstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 765306,
+				"values": {
+					"2025": { "value": 831320, "score": 0.19 },
+					"2026": { "value": 765306, "score": 0.27 },
+					"2030": { "value": 437473, "score": 0.68 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Downstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 88438,
+				"values": {
+					"2025": { "value": 97784, "score": 0.26 },
+					"2026": { "value": 88438, "score": 0.36 },
+					"2030": { "value": 27342, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Business travels",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 12656,
+				"values": {
+					"2025": { "value": 15340, "score": 0.13 },
+					"2026": { "value": 12656, "score": 0.35 },
+					"2030": { "value": 7005, "score": 0.81 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Employee commuting",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 122.83,
+				"values": {
+					"2025": { "value": 157, "score": 0 },
+					"2026": { "value": 122.83, "score": 0.25 },
+					"2030": { "value": 39.5, "score": 0.86 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgIntensity",
+				"name": "GHG intensity based on net revenue",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 0,
+				"values": {
+					"2025": { "value": 0, "score": 1 },
+					"2026": { "value": 0, "score": 1 },
+					"2030": { "value": 0, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterConsumption",
+				"name": "Total water consumption",
+				"unit": "million liters",
+				"target_value_description": "Lower is better",
+				"value": 15496,
+				"values": {
+					"2025": { "value": 16448, "score": 0.51 },
+					"2026": { "value": 15496, "score": 0.55 },
+					"2030": { "value": 5104, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterIntensity",
+				"name": "Water intensity per net revenue",
+				"unit": "liters per one million dollars",
+				"target_value_description": "Higher is better",
+				"value": 0.32,
+				"values": {
+					"2025": { "value": 0.38, "score": 0.56 },
+					"2026": { "value": 0.32, "score": 0.44 },
+					"2030": { "value": 0.1, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterRestoration",
+				"name": "Water restored",
+				"unit": "million liters",
+				"target_value_description": "Higher is better",
+				"value": 4535,
+				"values": {
+					"2025": { "value": 5760, "score": 1 },
+					"2026": { "value": 4535, "score": 0.74 },
+					"2030": { "value": 1586, "score": 0.1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "biodiversityAndEcosystems",
+				"pillar_subcategory": "impactedSpecies",
+				"name": "Impacted species change in habitat",
+				"unit": "boolean",
+				"target_value_description": "False is good",
+				"value": true,
+				"values": {
+					"2025": { "value": true, "score": 1 },
+					"2026": { "value": true, "score": 1 },
+					"2030": { "value": true, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceUseAndCircularEconomy",
+				"name": "Increase in circular design",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 6.9,
+				"values": {
+					"2025": { "value": 7.69, "score": 0.49 },
+					"2026": { "value": 6.9, "score": 0.41 },
+					"2030": { "value": 3.92, "score": 0.12 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 895.1,
+				"values": {
+					"2025": { "value": 1095.5, "score": 0.06 },
+					"2026": { "value": 895.1, "score": 0.28 },
+					"2030": { "value": 274.5, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 40.93,
+				"values": {
+					"2025": { "value": 44.63, "score": 0.83 },
+					"2026": { "value": 40.93, "score": 0.74 },
+					"2030": { "value": 17.41, "score": 0.16 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 483.3,
+				"values": {
+					"2025": { "value": 516.8, "score": 0.69 },
+					"2026": { "value": 483.3, "score": 0.72 },
+					"2030": { "value": 224.1, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.\r\n",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 64.74,
+				"values": {
+					"2025": { "value": 82.42, "score": 1 },
+					"2026": { "value": 64.74, "score": 0.73 },
+					"2030": { "value": 33.55, "score": 0.24 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total amount of waste generated by own operations",
+				"unit": "tonnes",
+				"target_value_description": "Lower is better",
+				"value": 157446,
+				"values": {
+					"2025": { "value": 165798, "score": 0.51 },
+					"2026": { "value": 157446, "score": 0.55 },
+					"2030": { "value": 88184, "score": 0.86 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The total amount of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 63002,
+				"values": {
+					"2025": { "value": 65636, "score": 0 },
+					"2026": { "value": 63002, "score": 0.05 },
+					"2030": { "value": 35828, "score": 0.62 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The percentage of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 20.61,
+				"values": {
+					"2025": { "value": 22.19, "score": 0.59 },
+					"2026": { "value": 20.61, "score": 0.64 },
+					"2030": { "value": 9.57, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 63715,
+				"values": {
+					"2025": { "value": 75854, "score": 0.3 },
+					"2026": { "value": 63715, "score": 0.47 },
+					"2030": { "value": 27413, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of male employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 32019,
+				"values": {
+					"2025": { "value": 36013, "score": 0.33 },
+					"2026": { "value": 32019, "score": 0.43 },
+					"2030": { "value": 14286, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of male employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 54.58,
+				"values": {
+					"2025": { "value": 60.96, "score": 0.04 },
+					"2026": { "value": 54.58, "score": 0.16 },
+					"2030": { "value": 22.59, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 31650,
+				"values": {
+					"2025": { "value": 40586, "score": 0.14 },
+					"2026": { "value": 31650, "score": 0.38 },
+					"2030": { "value": 11295, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of female employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 40.11,
+				"values": {
+					"2025": { "value": 48.74, "score": 0.38 },
+					"2026": { "value": 40.11, "score": 0.56 },
+					"2030": { "value": 20.53, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total difference male female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 253.9,
+				"values": {
+					"2025": { "value": 294.7, "score": 0.07 },
+					"2026": { "value": 253.9, "score": 0.25 },
+					"2030": { "value": 89.2, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage difference male female employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.3,
+				"values": {
+					"2025": { "value": 0.3, "score": 0.64 },
+					"2026": { "value": 0.3, "score": 0.64 },
+					"2030": { "value": 0.16, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 66238,
+				"values": {
+					"2025": { "value": 85268, "score": 0 },
+					"2026": { "value": 66238, "score": 0.3 },
+					"2030": { "value": 22489, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of male full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 28658,
+				"values": {
+					"2025": { "value": 32067, "score": 0.23 },
+					"2026": { "value": 28658, "score": 0.33 },
+					"2030": { "value": 14312, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of male full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 51.26,
+				"values": {
+					"2025": { "value": 60.65, "score": 0.11 },
+					"2026": { "value": 51.26, "score": 0.28 },
+					"2030": { "value": 19.53, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 34163,
+				"values": {
+					"2025": { "value": 37527, "score": 0.1 },
+					"2026": { "value": 34163, "score": 0.2 },
+					"2030": { "value": 19120, "score": 0.64 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of female full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 32.16,
+				"values": {
+					"2025": { "value": 35.8, "score": 0.56 },
+					"2026": { "value": 32.16, "score": 0.63 },
+					"2030": { "value": 19.07, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total difference of male female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 452.3,
+				"values": {
+					"2025": { "value": 515.9, "score": 0 },
+					"2026": { "value": 452.3, "score": 0.15 },
+					"2030": { "value": 184.3, "score": 0.77 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage difference of male female full-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.7,
+				"values": {
+					"2025": { "value": 0.81, "score": 0 },
+					"2026": { "value": 0.7, "score": 0.19 },
+					"2030": { "value": 0.3, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 19441,
+				"values": {
+					"2025": { "value": 19566, "score": 0.08 },
+					"2026": { "value": 19441, "score": 0.08 },
+					"2030": { "value": 6029, "score": 0.87 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of male part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 7933,
+				"values": {
+					"2025": { "value": 9953, "score": 0.24 },
+					"2026": { "value": 7933, "score": 0.49 },
+					"2030": { "value": 4064, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of male part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 59.96,
+				"values": {
+					"2025": { "value": 70.2, "score": 0 },
+					"2026": { "value": 59.96, "score": 0.2 },
+					"2030": { "value": 27.95, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 10450,
+				"values": {
+					"2025": { "value": 11435, "score": 0 },
+					"2026": { "value": 10450, "score": 0.11 },
+					"2030": { "value": 4043, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of female part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 47.88,
+				"values": {
+					"2025": { "value": 52.2, "score": 0.26 },
+					"2026": { "value": 47.88, "score": 0.34 },
+					"2030": { "value": 15.8, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total difference of male female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 109.01,
+				"values": {
+					"2025": { "value": 139.7, "score": 0 },
+					"2026": { "value": 109.01, "score": 0.27 },
+					"2030": { "value": 58.5, "score": 0.71 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage difference of male female part-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.71,
+				"values": {
+					"2025": { "value": 0.74, "score": 0.05 },
+					"2026": { "value": 0.71, "score": 0.11 },
+					"2030": { "value": 0.34, "score": 0.75 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 523.1,
+				"values": {
+					"2025": { "value": 590.5, "score": 0 },
+					"2026": { "value": 523.1, "score": 0.16 },
+					"2030": { "value": 197.6, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of male top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 301.4,
+				"values": {
+					"2025": { "value": 311.8, "score": 0.22 },
+					"2026": { "value": 301.4, "score": 0.26 },
+					"2030": { "value": 120.9, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of male top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 50.78,
+				"values": {
+					"2025": { "value": 57.29, "score": 0.33 },
+					"2026": { "value": 50.78, "score": 0.44 },
+					"2030": { "value": 28.94, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of female top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 153.5,
+				"values": {
+					"2025": { "value": 170.6, "score": 0.31 },
+					"2026": { "value": 153.5, "score": 0.41 },
+					"2030": { "value": 57.1, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of female top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 47.01,
+				"values": {
+					"2025": { "value": 59.78, "score": 0.15 },
+					"2026": { "value": 47.01, "score": 0.38 },
+					"2030": { "value": 25.91, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "healtAndSafety",
+				"name": "Rate of recordable work-related accidents",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 0.75,
+				"values": {
+					"2025": { "value": 0.77, "score": 0.41 },
+					"2026": { "value": 0.75, "score": 0.44 },
+					"2030": { "value": 0.36, "score": 0.85 }
+				}
+			}
+		],
+		"score": {
+			"Environment": { "2025": 0.42, "2026": 0.49, "2030": 0.79 },
+			"Social": { "2025": 0.18, "2026": 0.32, "2030": 0.86 },
+			"Governance": { "2025": 0.31, "2026": 0.38, "2030": 0.71 },
+			"ESG": { "2025": 0.3, "2026": 0.4, "2030": 0.79 },
+			"categoryScores": {
+				"climateChange": { "2025": 0.33, "2026": 0.45, "2030": 0.88, "group": "Environment" },
+				"waterAndMarineSources": {
+					"2025": 0.69,
+					"2026": 0.58,
+					"2030": 0.37,
+					"group": "Environment"
+				},
+				"biodiversityAndEcosystems": { "2025": 1, "2026": 1, "2030": 1, "group": "Environment" },
+				"resourceUseAndCircularEconomy": {
+					"2025": 0.52,
+					"2026": 0.52,
+					"2030": 0.62,
+					"group": "Environment"
+				},
+				"ownWorkforce": { "2025": 0.18, "2026": 0.32, "2030": 0.86, "group": "Social" }
+			}
+		}
+	},
+	{
+		"name": "Louis Vuitton",
+		"industry": "Textiles & Apparel",
+		"values": [
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Total energy consumption non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 281134,
+				"values": {
+					"2025": { "value": 364454, "score": 0.01 },
+					"2026": { "value": 281134, "score": 0.33 },
+					"2030": { "value": 106563, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from coal and coal products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 9023,
+				"values": {
+					"2025": { "value": 10157, "score": 0.47 },
+					"2026": { "value": 9023, "score": 0.56 },
+					"2030": { "value": 4395, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from crude oil and petroleum products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 20754,
+				"values": {
+					"2025": { "value": 20818, "score": 0.34 },
+					"2026": { "value": 20754, "score": 0.34 },
+					"2030": { "value": 7535, "score": 0.87 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from natural gas",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 244525,
+				"values": {
+					"2025": { "value": 268784, "score": 0.11 },
+					"2026": { "value": 244525, "score": 0.23 },
+					"2030": { "value": 99322, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from other non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 20713,
+				"values": {
+					"2025": { "value": 26478, "score": 0.21 },
+					"2026": { "value": 20713, "score": 0.44 },
+					"2030": { "value": 6961, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 3536,
+				"values": {
+					"2025": { "value": 4111, "score": 0.5 },
+					"2026": { "value": 3536, "score": 0.61 },
+					"2030": { "value": 1892, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Total energy consumption renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 530971,
+				"values": {
+					"2025": { "value": 656450, "score": 0.21 },
+					"2026": { "value": 530971, "score": 0.4 },
+					"2030": { "value": 239522, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Fuel consumption for renewable sources (including biomass, biogas, nonfossil fuel waste, hydrogen from renewable sources, etc.)",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 3035,
+				"values": {
+					"2025": { "value": 3136, "score": 0.24 },
+					"2026": { "value": 3035, "score": 0.27 },
+					"2030": { "value": 1774, "score": 0.7 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 446102,
+				"values": {
+					"2025": { "value": 471375, "score": 0.34 },
+					"2026": { "value": 446102, "score": 0.39 },
+					"2030": { "value": 164690, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of self-generated non-fuel renewable energy",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 18963,
+				"values": {
+					"2025": { "value": 21471, "score": 0.33 },
+					"2026": { "value": 18963, "score": 0.43 },
+					"2030": { "value": 9711, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Energy consumption total",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 1031670,
+				"values": {
+					"2025": { "value": 1329408, "score": 0 },
+					"2026": { "value": 1031670, "score": 0.26 },
+					"2030": { "value": 431045, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Share of renewable energy from total",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 19.42,
+				"values": {
+					"2025": { "value": 20.19, "score": 0.43 },
+					"2026": { "value": 19.42, "score": 0.41 },
+					"2030": { "value": 7.36, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyIntensity",
+				"name": "Energy intensity based on net revenue",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 24.96,
+				"values": {
+					"2025": { "value": 26.85, "score": 0.23 },
+					"2026": { "value": 24.96, "score": 0.3 },
+					"2030": { "value": 11.41, "score": 0.8 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgTotal",
+				"name": "Total GHG emissions",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 19802990,
+				"values": {
+					"2025": { "value": 23603567, "score": 0.08 },
+					"2026": { "value": 19802990, "score": 0.27 },
+					"2030": { "value": 7779859, "score": 0.86 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope1",
+				"name": "Total GHG Scope 1",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 52484,
+				"values": {
+					"2025": { "value": 56453, "score": 0.23 },
+					"2026": { "value": 52484, "score": 0.31 },
+					"2030": { "value": 20626, "score": 0.93 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope2",
+				"name": "Total GHG Scope 2",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 22643,
+				"values": {
+					"2025": { "value": 23201, "score": 0.38 },
+					"2026": { "value": 22643, "score": 0.4 },
+					"2030": { "value": 10478, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Total GHG Scope 3",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 20115239,
+				"values": {
+					"2025": { "value": 21700535, "score": 0.18 },
+					"2026": { "value": 20115239, "score": 0.25 },
+					"2030": { "value": 7042542, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Purchased goods and services",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 8832009,
+				"values": {
+					"2025": { "value": 10401393, "score": 0.2 },
+					"2026": { "value": 8832009, "score": 0.37 },
+					"2030": { "value": 5018864, "score": 0.77 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Fuel and energy-related activities",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 18433,
+				"values": {
+					"2025": { "value": 22986, "score": 0 },
+					"2026": { "value": 18433, "score": 0.25 },
+					"2030": { "value": 9728, "score": 0.72 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Waste generated in operations",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 1981,
+				"values": {
+					"2025": { "value": 2441, "score": 0.28 },
+					"2026": { "value": 1981, "score": 0.48 },
+					"2030": { "value": 1019, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Use of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 5907614,
+				"values": {
+					"2025": { "value": 7447614, "score": 0.32 },
+					"2026": { "value": 5907614, "score": 0.53 },
+					"2030": { "value": 2732587, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "End-of-life treatment of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 460743,
+				"values": {
+					"2025": { "value": 524501, "score": 0.59 },
+					"2026": { "value": 460743, "score": 0.68 },
+					"2030": { "value": 228869, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Upstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 828553,
+				"values": {
+					"2025": { "value": 982235, "score": 0 },
+					"2026": { "value": 828553, "score": 0.19 },
+					"2030": { "value": 282180, "score": 0.87 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Downstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 110580,
+				"values": {
+					"2025": { "value": 113423, "score": 0.09 },
+					"2026": { "value": 110580, "score": 0.12 },
+					"2030": { "value": 61244, "score": 0.64 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Business travels",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 13431,
+				"values": {
+					"2025": { "value": 16975, "score": 0 },
+					"2026": { "value": 13431, "score": 0.29 },
+					"2030": { "value": 4733, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Employee commuting",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 115.69,
+				"values": {
+					"2025": { "value": 144.3, "score": 0.09 },
+					"2026": { "value": 115.69, "score": 0.3 },
+					"2030": { "value": 57.5, "score": 0.73 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgIntensity",
+				"name": "GHG intensity based on net revenue",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 0,
+				"values": {
+					"2025": { "value": 0, "score": 1 },
+					"2026": { "value": 0, "score": 1 },
+					"2030": { "value": 0, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterConsumption",
+				"name": "Total water consumption",
+				"unit": "million liters",
+				"target_value_description": "Lower is better",
+				"value": 24475,
+				"values": {
+					"2025": { "value": 24950, "score": 0.14 },
+					"2026": { "value": 24475, "score": 0.16 },
+					"2030": { "value": 13033, "score": 0.66 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterIntensity",
+				"name": "Water intensity per net revenue",
+				"unit": "liters per one million dollars",
+				"target_value_description": "Higher is better",
+				"value": 0.33,
+				"values": {
+					"2025": { "value": 0.37, "score": 0.54 },
+					"2026": { "value": 0.33, "score": 0.46 },
+					"2030": { "value": 0.11, "score": 0.02 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterRestoration",
+				"name": "Water restored",
+				"unit": "million liters",
+				"target_value_description": "Higher is better",
+				"value": 3018,
+				"values": {
+					"2025": { "value": 3335, "score": 0.48 },
+					"2026": { "value": 3018, "score": 0.41 },
+					"2030": { "value": 1103, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "biodiversityAndEcosystems",
+				"pillar_subcategory": "impactedSpecies",
+				"name": "Impacted species change in habitat",
+				"unit": "boolean",
+				"target_value_description": "False is good",
+				"value": true,
+				"values": {
+					"2025": { "value": true, "score": 1 },
+					"2026": { "value": true, "score": 1 },
+					"2030": { "value": true, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceUseAndCircularEconomy",
+				"name": "Increase in circular design",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 8.17,
+				"values": {
+					"2025": { "value": 10.07, "score": 0.72 },
+					"2026": { "value": 8.17, "score": 0.53 },
+					"2030": { "value": 2.67, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 696.2,
+				"values": {
+					"2025": { "value": 861, "score": 0.32 },
+					"2026": { "value": 696.2, "score": 0.49 },
+					"2030": { "value": 342.8, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 47.42,
+				"values": {
+					"2025": { "value": 51.53, "score": 1 },
+					"2026": { "value": 47.42, "score": 0.9 },
+					"2030": { "value": 15.93, "score": 0.12 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 734.7,
+				"values": {
+					"2025": { "value": 818.1, "score": 0.36 },
+					"2026": { "value": 734.7, "score": 0.45 },
+					"2030": { "value": 265.2, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.\r\n",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 54.98,
+				"values": {
+					"2025": { "value": 67.95, "score": 0.78 },
+					"2026": { "value": 54.98, "score": 0.57 },
+					"2030": { "value": 27.46, "score": 0.15 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total amount of waste generated by own operations",
+				"unit": "tonnes",
+				"target_value_description": "Lower is better",
+				"value": 266660,
+				"values": {
+					"2025": { "value": 277020, "score": 0 },
+					"2026": { "value": 266660, "score": 0.05 },
+					"2030": { "value": 133691, "score": 0.65 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The total amount of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 54072,
+				"values": {
+					"2025": { "value": 59428, "score": 0.13 },
+					"2026": { "value": 54072, "score": 0.24 },
+					"2030": { "value": 28938, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The percentage of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 34.16,
+				"values": {
+					"2025": { "value": 40.54, "score": 0.04 },
+					"2026": { "value": 34.16, "score": 0.23 },
+					"2030": { "value": 14.38, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 43605,
+				"values": {
+					"2025": { "value": 48411, "score": 0.67 },
+					"2026": { "value": 43605, "score": 0.74 },
+					"2030": { "value": 25845, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of male employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 32029,
+				"values": {
+					"2025": { "value": 34084, "score": 0.38 },
+					"2026": { "value": 32029, "score": 0.43 },
+					"2030": { "value": 17462, "score": 0.8 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of male employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 37.52,
+				"values": {
+					"2025": { "value": 43.77, "score": 0.37 },
+					"2026": { "value": 37.52, "score": 0.49 },
+					"2030": { "value": 20.28, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 35400,
+				"values": {
+					"2025": { "value": 41824, "score": 0.11 },
+					"2026": { "value": 35400, "score": 0.28 },
+					"2030": { "value": 18395, "score": 0.74 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of female employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 58.83,
+				"values": {
+					"2025": { "value": 68.06, "score": 0 },
+					"2026": { "value": 58.83, "score": 0.18 },
+					"2030": { "value": 26.24, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total difference male female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 285.2,
+				"values": {
+					"2025": { "value": 289.3, "score": 0.09 },
+					"2026": { "value": 285.2, "score": 0.11 },
+					"2030": { "value": 101.1, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage difference male female employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.47,
+				"values": {
+					"2025": { "value": 0.57, "score": 0 },
+					"2026": { "value": 0.47, "score": 0.24 },
+					"2030": { "value": 0.19, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 45697,
+				"values": {
+					"2025": { "value": 57530, "score": 0.44 },
+					"2026": { "value": 45697, "score": 0.63 },
+					"2030": { "value": 24131, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of male full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 19467,
+				"values": {
+					"2025": { "value": 20648, "score": 0.57 },
+					"2026": { "value": 19467, "score": 0.61 },
+					"2030": { "value": 6139, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of male full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 31.12,
+				"values": {
+					"2025": { "value": 33.4, "score": 0.6 },
+					"2026": { "value": 31.12, "score": 0.64 },
+					"2030": { "value": 11.41, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 32458,
+				"values": {
+					"2025": { "value": 40985, "score": 0 },
+					"2026": { "value": 32458, "score": 0.25 },
+					"2030": { "value": 10458, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of female full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 55.22,
+				"values": {
+					"2025": { "value": 62.39, "score": 0 },
+					"2026": { "value": 55.22, "score": 0.15 },
+					"2030": { "value": 18.28, "score": 0.92 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total difference of male female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 365.4,
+				"values": {
+					"2025": { "value": 472.4, "score": 0.1 },
+					"2026": { "value": 365.4, "score": 0.35 },
+					"2030": { "value": 115.7, "score": 0.93 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage difference of male female full-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.45,
+				"values": {
+					"2025": { "value": 0.57, "score": 0.42 },
+					"2026": { "value": 0.45, "score": 0.63 },
+					"2030": { "value": 0.27, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 14763,
+				"values": {
+					"2025": { "value": 16568, "score": 0.25 },
+					"2026": { "value": 14763, "score": 0.36 },
+					"2030": { "value": 5547, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of male part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 10319,
+				"values": {
+					"2025": { "value": 11971, "score": 0 },
+					"2026": { "value": 10319, "score": 0.2 },
+					"2030": { "value": 3714, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of male part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 50.09,
+				"values": {
+					"2025": { "value": 54.75, "score": 0.31 },
+					"2026": { "value": 50.09, "score": 0.4 },
+					"2030": { "value": 25.87, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 7617,
+				"values": {
+					"2025": { "value": 8059, "score": 0.39 },
+					"2026": { "value": 7617, "score": 0.44 },
+					"2030": { "value": 4570, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of female part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 53.82,
+				"values": {
+					"2025": { "value": 60.83, "score": 0.1 },
+					"2026": { "value": 53.82, "score": 0.23 },
+					"2030": { "value": 27.22, "score": 0.71 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total difference of male female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 60.12,
+				"values": {
+					"2025": { "value": 64.03, "score": 0.67 },
+					"2026": { "value": 60.12, "score": 0.7 },
+					"2030": { "value": 33.42, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage difference of male female part-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.71,
+				"values": {
+					"2025": { "value": 0.72, "score": 0.09 },
+					"2026": { "value": 0.71, "score": 0.11 },
+					"2030": { "value": 0.25, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 308.3,
+				"values": {
+					"2025": { "value": 320.4, "score": 0.63 },
+					"2026": { "value": 308.3, "score": 0.65 },
+					"2030": { "value": 166.8, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of male top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 237,
+				"values": {
+					"2025": { "value": 252.2, "score": 0.42 },
+					"2026": { "value": 237, "score": 0.46 },
+					"2030": { "value": 90.7, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of male top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 66.71,
+				"values": {
+					"2025": { "value": 76.03, "score": 0 },
+					"2026": { "value": 66.71, "score": 0.16 },
+					"2030": { "value": 28.75, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of female top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 178.5,
+				"values": {
+					"2025": { "value": 227.4, "score": 0 },
+					"2026": { "value": 178.5, "score": 0.27 },
+					"2030": { "value": 69.5, "score": 0.87 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of female top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 39.88,
+				"values": {
+					"2025": { "value": 50.47, "score": 0.32 },
+					"2026": { "value": 39.88, "score": 0.51 },
+					"2030": { "value": 18.27, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "healtAndSafety",
+				"name": "Rate of recordable work-related accidents",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 1.11,
+				"values": {
+					"2025": { "value": 1.16, "score": 0 },
+					"2026": { "value": 1.11, "score": 0.05 },
+					"2030": { "value": 0.44, "score": 0.77 }
+				}
+			}
+		],
+		"score": {
+			"Environment": { "2025": 0.32, "2026": 0.41, "2030": 0.74 },
+			"Social": { "2025": 0.26, "2026": 0.38, "2030": 0.89 },
+			"Governance": { "2025": 0.36, "2026": 0.51, "2030": 0.93 },
+			"ESG": { "2025": 0.31, "2026": 0.43, "2030": 0.85 },
+			"categoryScores": {
+				"climateChange": { "2025": 0.25, "2026": 0.39, "2030": 0.84, "group": "Environment" },
+				"waterAndMarineSources": {
+					"2025": 0.39,
+					"2026": 0.34,
+					"2030": 0.23,
+					"group": "Environment"
+				},
+				"biodiversityAndEcosystems": { "2025": 1, "2026": 1, "2030": 1, "group": "Environment" },
+				"resourceUseAndCircularEconomy": {
+					"2025": 0.42,
+					"2026": 0.43,
+					"2030": 0.54,
+					"group": "Environment"
+				},
+				"ownWorkforce": { "2025": 0.26, "2026": 0.38, "2030": 0.89, "group": "Social" }
+			}
+		}
+	},
+	{
+		"name": "Gucci",
+		"industry": "Textiles & Apparel",
+		"values": [
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Total energy consumption non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 266554,
+				"values": {
+					"2025": { "value": 312212, "score": 0.21 },
+					"2026": { "value": 266554, "score": 0.38 },
+					"2030": { "value": 135736, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from coal and coal products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 12860,
+				"values": {
+					"2025": { "value": 16319, "score": 0 },
+					"2026": { "value": 12860, "score": 0.26 },
+					"2030": { "value": 6817, "score": 0.72 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from crude oil and petroleum products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 11430,
+				"values": {
+					"2025": { "value": 11735, "score": 0.7 },
+					"2026": { "value": 11430, "score": 0.72 },
+					"2030": { "value": 4340, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from natural gas",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 242300,
+				"values": {
+					"2025": { "value": 267472, "score": 0.11 },
+					"2026": { "value": 242300, "score": 0.24 },
+					"2030": { "value": 99141, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from other non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 18320,
+				"values": {
+					"2025": { "value": 19955, "score": 0.47 },
+					"2026": { "value": 18320, "score": 0.53 },
+					"2030": { "value": 7805, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 3953,
+				"values": {
+					"2025": { "value": 5022, "score": 0.32 },
+					"2026": { "value": 3953, "score": 0.53 },
+					"2030": { "value": 1664, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Total energy consumption renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 340139,
+				"values": {
+					"2025": { "value": 382813, "score": 0.62 },
+					"2026": { "value": 340139, "score": 0.69 },
+					"2030": { "value": 133112, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Fuel consumption for renewable sources (including biomass, biogas, nonfossil fuel waste, hydrogen from renewable sources, etc.)",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 3159,
+				"values": {
+					"2025": { "value": 3846, "score": 0 },
+					"2026": { "value": 3159, "score": 0.23 },
+					"2030": { "value": 1839, "score": 0.68 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 543041,
+				"values": {
+					"2025": { "value": 578980, "score": 0.14 },
+					"2026": { "value": 543041, "score": 0.21 },
+					"2030": { "value": 203325, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of self-generated non-fuel renewable energy",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 19021,
+				"values": {
+					"2025": { "value": 20404, "score": 0.37 },
+					"2026": { "value": 19021, "score": 0.43 },
+					"2030": { "value": 6838, "score": 0.95 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Energy consumption total",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 885204,
+				"values": {
+					"2025": { "value": 1066794, "score": 0.23 },
+					"2026": { "value": 885204, "score": 0.39 },
+					"2030": { "value": 513657, "score": 0.72 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Share of renewable energy from total",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 24.74,
+				"values": {
+					"2025": { "value": 31.48, "score": 0.81 },
+					"2026": { "value": 24.74, "score": 0.59 },
+					"2030": { "value": 8.17, "score": 0.03 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyIntensity",
+				"name": "Energy intensity based on net revenue",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 25.8,
+				"values": {
+					"2025": { "value": 33.17, "score": 0 },
+					"2026": { "value": 25.8, "score": 0.27 },
+					"2030": { "value": 14.49, "score": 0.69 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgTotal",
+				"name": "Total GHG emissions",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 16072603,
+				"values": {
+					"2025": { "value": 20021121, "score": 0.26 },
+					"2026": { "value": 16072603, "score": 0.45 },
+					"2030": { "value": 9251834, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope1",
+				"name": "Total GHG Scope 1",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 39171,
+				"values": {
+					"2025": { "value": 47231, "score": 0.41 },
+					"2026": { "value": 39171, "score": 0.57 },
+					"2030": { "value": 21514, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope2",
+				"name": "Total GHG Scope 2",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 22964,
+				"values": {
+					"2025": { "value": 29830, "score": 0.11 },
+					"2026": { "value": 22964, "score": 0.39 },
+					"2030": { "value": 13058, "score": 0.79 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Total GHG Scope 3",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 12660918,
+				"values": {
+					"2025": { "value": 16398394, "score": 0.42 },
+					"2026": { "value": 12660918, "score": 0.59 },
+					"2030": { "value": 3837520, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Purchased goods and services",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 8616712,
+				"values": {
+					"2025": { "value": 10424488, "score": 0.2 },
+					"2026": { "value": 8616712, "score": 0.39 },
+					"2030": { "value": 5098350, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Fuel and energy-related activities",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 11797,
+				"values": {
+					"2025": { "value": 12187, "score": 0.59 },
+					"2026": { "value": 11797, "score": 0.61 },
+					"2030": { "value": 4643, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Waste generated in operations",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 2387,
+				"values": {
+					"2025": { "value": 2778, "score": 0.13 },
+					"2026": { "value": 2387, "score": 0.3 },
+					"2030": { "value": 857, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Use of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 7093409,
+				"values": {
+					"2025": { "value": 7763188, "score": 0.27 },
+					"2026": { "value": 7093409, "score": 0.37 },
+					"2030": { "value": 4043851, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "End-of-life treatment of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 736014,
+				"values": {
+					"2025": { "value": 942166, "score": 0 },
+					"2026": { "value": 736014, "score": 0.29 },
+					"2030": { "value": 301657, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Upstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 710657,
+				"values": {
+					"2025": { "value": 763043, "score": 0.27 },
+					"2026": { "value": 710657, "score": 0.34 },
+					"2030": { "value": 305502, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Downstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 107707,
+				"values": {
+					"2025": { "value": 115669, "score": 0.07 },
+					"2026": { "value": 107707, "score": 0.15 },
+					"2030": { "value": 55395, "score": 0.7 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Business travels",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 12056,
+				"values": {
+					"2025": { "value": 13223, "score": 0.31 },
+					"2026": { "value": 12056, "score": 0.4 },
+					"2030": { "value": 5777, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Employee commuting",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 70.07,
+				"values": {
+					"2025": { "value": 82.18, "score": 0.55 },
+					"2026": { "value": 70.07, "score": 0.63 },
+					"2030": { "value": 38.62, "score": 0.86 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgIntensity",
+				"name": "GHG intensity based on net revenue",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 0,
+				"values": {
+					"2025": { "value": 0, "score": 1 },
+					"2026": { "value": 0, "score": 1 },
+					"2030": { "value": 0, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterConsumption",
+				"name": "Total water consumption",
+				"unit": "million liters",
+				"target_value_description": "Lower is better",
+				"value": 23032,
+				"values": {
+					"2025": { "value": 23566, "score": 0.2 },
+					"2026": { "value": 23032, "score": 0.23 },
+					"2030": { "value": 10875, "score": 0.75 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterIntensity",
+				"name": "Water intensity per net revenue",
+				"unit": "liters per one million dollars",
+				"target_value_description": "Higher is better",
+				"value": 0.49,
+				"values": {
+					"2025": { "value": 0.6, "score": 1 },
+					"2026": { "value": 0.49, "score": 0.78 },
+					"2030": { "value": 0.17, "score": 0.14 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterRestoration",
+				"name": "Water restored",
+				"unit": "million liters",
+				"target_value_description": "Higher is better",
+				"value": 4779,
+				"values": {
+					"2025": { "value": 5309, "score": 0.9 },
+					"2026": { "value": 4779, "score": 0.79 },
+					"2030": { "value": 2614, "score": 0.32 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "biodiversityAndEcosystems",
+				"pillar_subcategory": "impactedSpecies",
+				"name": "Impacted species change in habitat",
+				"unit": "boolean",
+				"target_value_description": "False is good",
+				"value": true,
+				"values": {
+					"2025": { "value": true, "score": 1 },
+					"2026": { "value": true, "score": 1 },
+					"2030": { "value": true, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceUseAndCircularEconomy",
+				"name": "Increase in circular design",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 7.46,
+				"values": {
+					"2025": { "value": 8.59, "score": 0.58 },
+					"2026": { "value": 7.46, "score": 0.47 },
+					"2030": { "value": 2.81, "score": 0.01 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 907.4,
+				"values": {
+					"2025": { "value": 1154.5, "score": 0 },
+					"2026": { "value": 907.4, "score": 0.27 },
+					"2030": { "value": 334.5, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 34.85,
+				"values": {
+					"2025": { "value": 41.01, "score": 0.74 },
+					"2026": { "value": 34.85, "score": 0.59 },
+					"2030": { "value": 12.12, "score": 0.03 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 960,
+				"values": {
+					"2025": { "value": 1157.8, "score": 0 },
+					"2026": { "value": 960, "score": 0.21 },
+					"2030": { "value": 549.2, "score": 0.65 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.\r\n",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 60.07,
+				"values": {
+					"2025": { "value": 67.34, "score": 0.77 },
+					"2026": { "value": 60.07, "score": 0.65 },
+					"2030": { "value": 18.07, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total amount of waste generated by own operations",
+				"unit": "tonnes",
+				"target_value_description": "Lower is better",
+				"value": 174037,
+				"values": {
+					"2025": { "value": 175808, "score": 0.46 },
+					"2026": { "value": 174037, "score": 0.47 },
+					"2030": { "value": 93815, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The total amount of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 45759,
+				"values": {
+					"2025": { "value": 51935, "score": 0.29 },
+					"2026": { "value": 45759, "score": 0.41 },
+					"2030": { "value": 23491, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The percentage of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 18.46,
+				"values": {
+					"2025": { "value": 22.13, "score": 0.59 },
+					"2026": { "value": 18.46, "score": 0.71 },
+					"2030": { "value": 8.73, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 89521,
+				"values": {
+					"2025": { "value": 98083, "score": 0 },
+					"2026": { "value": 89521, "score": 0.12 },
+					"2030": { "value": 44689, "score": 0.72 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of male employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 45660,
+				"values": {
+					"2025": { "value": 48947, "score": 0 },
+					"2026": { "value": 45660, "score": 0.09 },
+					"2030": { "value": 18277, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of male employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 53.48,
+				"values": {
+					"2025": { "value": 61.05, "score": 0.04 },
+					"2026": { "value": 53.48, "score": 0.18 },
+					"2030": { "value": 19.25, "score": 0.85 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 27980,
+				"values": {
+					"2025": { "value": 29640, "score": 0.44 },
+					"2026": { "value": 27980, "score": 0.48 },
+					"2030": { "value": 8953, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of female employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 41.21,
+				"values": {
+					"2025": { "value": 45.42, "score": 0.45 },
+					"2026": { "value": 41.21, "score": 0.53 },
+					"2030": { "value": 17.8, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total difference male female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 268.2,
+				"values": {
+					"2025": { "value": 290.7, "score": 0.09 },
+					"2026": { "value": 268.2, "score": 0.19 },
+					"2030": { "value": 93.2, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage difference male female employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.42,
+				"values": {
+					"2025": { "value": 0.46, "score": 0.26 },
+					"2026": { "value": 0.42, "score": 0.36 },
+					"2030": { "value": 0.15, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 53830,
+				"values": {
+					"2025": { "value": 68307, "score": 0.27 },
+					"2026": { "value": 53830, "score": 0.5 },
+					"2030": { "value": 26256, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of male full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 18527,
+				"values": {
+					"2025": { "value": 22355, "score": 0.52 },
+					"2026": { "value": 18527, "score": 0.63 },
+					"2030": { "value": 8456, "score": 0.93 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of male full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 50.03,
+				"values": {
+					"2025": { "value": 64.14, "score": 0.05 },
+					"2026": { "value": 50.03, "score": 0.3 },
+					"2030": { "value": 20.86, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 18248,
+				"values": {
+					"2025": { "value": 20006, "score": 0.61 },
+					"2026": { "value": 18248, "score": 0.66 },
+					"2030": { "value": 6676, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of female full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 44.46,
+				"values": {
+					"2025": { "value": 53.76, "score": 0.18 },
+					"2026": { "value": 44.46, "score": 0.38 },
+					"2030": { "value": 20.88, "score": 0.87 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total difference of male female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 326.9,
+				"values": {
+					"2025": { "value": 407.3, "score": 0.25 },
+					"2026": { "value": 326.9, "score": 0.44 },
+					"2030": { "value": 154.9, "score": 0.84 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage difference of male female full-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.55,
+				"values": {
+					"2025": { "value": 0.55, "score": 0.46 },
+					"2026": { "value": 0.55, "score": 0.46 },
+					"2030": { "value": 0.29, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 12183,
+				"values": {
+					"2025": { "value": 15806, "score": 0.3 },
+					"2026": { "value": 12183, "score": 0.51 },
+					"2030": { "value": 4622, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of male part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 7151,
+				"values": {
+					"2025": { "value": 9140, "score": 0.34 },
+					"2026": { "value": 7151, "score": 0.58 },
+					"2030": { "value": 3768, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of male part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 48.29,
+				"values": {
+					"2025": { "value": 56.46, "score": 0.27 },
+					"2026": { "value": 48.29, "score": 0.44 },
+					"2030": { "value": 19.95, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 7966,
+				"values": {
+					"2025": { "value": 9197, "score": 0.26 },
+					"2026": { "value": 7966, "score": 0.4 },
+					"2030": { "value": 2756, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of female part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 31.13,
+				"values": {
+					"2025": { "value": 35.22, "score": 0.56 },
+					"2026": { "value": 31.13, "score": 0.64 },
+					"2030": { "value": 11.08, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total difference of male female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 95.51,
+				"values": {
+					"2025": { "value": 118.89, "score": 0.18 },
+					"2026": { "value": 95.51, "score": 0.39 },
+					"2030": { "value": 39.82, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage difference of male female part-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.57,
+				"values": {
+					"2025": { "value": 0.68, "score": 0.16 },
+					"2026": { "value": 0.57, "score": 0.35 },
+					"2030": { "value": 0.25, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 326.8,
+				"values": {
+					"2025": { "value": 364, "score": 0.52 },
+					"2026": { "value": 326.8, "score": 0.61 },
+					"2030": { "value": 158.6, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of male top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 289.4,
+				"values": {
+					"2025": { "value": 325.4, "score": 0.18 },
+					"2026": { "value": 289.4, "score": 0.29 },
+					"2030": { "value": 146.8, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of male top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 38.78,
+				"values": {
+					"2025": { "value": 49.54, "score": 0.46 },
+					"2026": { "value": 38.78, "score": 0.65 },
+					"2030": { "value": 18.76, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of female top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 126.3,
+				"values": {
+					"2025": { "value": 136.4, "score": 0.5 },
+					"2026": { "value": 126.3, "score": 0.56 },
+					"2030": { "value": 62.9, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of female top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 52.39,
+				"values": {
+					"2025": { "value": 68.01, "score": 0 },
+					"2026": { "value": 52.39, "score": 0.28 },
+					"2030": { "value": 26.97, "score": 0.74 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "healtAndSafety",
+				"name": "Rate of recordable work-related accidents",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 0.64,
+				"values": {
+					"2025": { "value": 0.78, "score": 0.4 },
+					"2026": { "value": 0.64, "score": 0.55 },
+					"2030": { "value": 0.38, "score": 0.83 }
+				}
+			}
+		],
+		"score": {
+			"Environment": { "2025": 0.39, "2026": 0.48, "2030": 0.75 },
+			"Social": { "2025": 0.29, "2026": 0.43, "2030": 0.91 },
+			"Governance": { "2025": 0.18, "2026": 0.4, "2030": 0.95 },
+			"ESG": { "2025": 0.29, "2026": 0.44, "2030": 0.87 },
+			"categoryScores": {
+				"climateChange": { "2025": 0.32, "2026": 0.44, "2030": 0.84, "group": "Environment" },
+				"waterAndMarineSources": { "2025": 0.7, "2026": 0.6, "2030": 0.4, "group": "Environment" },
+				"biodiversityAndEcosystems": { "2025": 1, "2026": 1, "2030": 1, "group": "Environment" },
+				"resourceUseAndCircularEconomy": {
+					"2025": 0.43,
+					"2026": 0.47,
+					"2030": 0.54,
+					"group": "Environment"
+				},
+				"ownWorkforce": { "2025": 0.29, "2026": 0.43, "2030": 0.91, "group": "Social" }
+			}
+		}
+	},
+	{
+		"name": "Puma",
+		"industry": "Textiles & Apparel",
+		"values": [
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Total energy consumption non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 331608,
+				"values": {
+					"2025": { "value": 337984, "score": 0.11 },
+					"2026": { "value": 331608, "score": 0.13 },
+					"2030": { "value": 143451, "score": 0.86 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from coal and coal products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 11677,
+				"values": {
+					"2025": { "value": 14216, "score": 0.16 },
+					"2026": { "value": 11677, "score": 0.35 },
+					"2030": { "value": 4601, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from crude oil and petroleum products",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 22658,
+				"values": {
+					"2025": { "value": 29313, "score": 0 },
+					"2026": { "value": 22658, "score": 0.27 },
+					"2030": { "value": 12191, "score": 0.69 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from natural gas",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 263640,
+				"values": {
+					"2025": { "value": 290193, "score": 0 },
+					"2026": { "value": 263640, "score": 0.13 },
+					"2030": { "value": 157049, "score": 0.66 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Fuel consumption from other non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 19506,
+				"values": {
+					"2025": { "value": 20244, "score": 0.46 },
+					"2026": { "value": 19506, "score": 0.48 },
+					"2030": { "value": 9087, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionNonRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from non-renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 6588,
+				"values": {
+					"2025": { "value": 6635, "score": 0 },
+					"2026": { "value": 6588, "score": 0.01 },
+					"2030": { "value": 3276, "score": 0.66 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Total energy consumption renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 685648,
+				"values": {
+					"2025": { "value": 705816, "score": 0.13 },
+					"2026": { "value": 685648, "score": 0.16 },
+					"2030": { "value": 283818, "score": 0.77 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Fuel consumption for renewable sources (including biomass, biogas, nonfossil fuel waste, hydrogen from renewable sources, etc.)",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 3279,
+				"values": {
+					"2025": { "value": 3634, "score": 0.07 },
+					"2026": { "value": 3279, "score": 0.19 },
+					"2030": { "value": 1949, "score": 0.64 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 361266,
+				"values": {
+					"2025": { "value": 398110, "score": 0.48 },
+					"2026": { "value": 361266, "score": 0.54 },
+					"2030": { "value": 117048, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionRenewableSources",
+				"name": "Consumption of self-generated non-fuel renewable energy",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 22757,
+				"values": {
+					"2025": { "value": 26928, "score": 0.09 },
+					"2026": { "value": 22757, "score": 0.27 },
+					"2030": { "value": 8604, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Energy consumption total",
+				"unit": "MWh",
+				"target_value_description": "Lower is better",
+				"value": 653755,
+				"values": {
+					"2025": { "value": 657619, "score": 0.59 },
+					"2026": { "value": 653755, "score": 0.6 },
+					"2030": { "value": 197893, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyConsumptionTotal",
+				"name": "Share of renewable energy from total",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 33.44,
+				"values": {
+					"2025": { "value": 36.13, "score": 0.97 },
+					"2026": { "value": 33.44, "score": 0.88 },
+					"2030": { "value": 16.3, "score": 0.3 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "energyIntensity",
+				"name": "Energy intensity based on net revenue",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 20.6,
+				"values": {
+					"2025": { "value": 25.93, "score": 0.27 },
+					"2026": { "value": 20.6, "score": 0.46 },
+					"2030": { "value": 6.36, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgTotal",
+				"name": "Total GHG emissions",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 11911214,
+				"values": {
+					"2025": { "value": 14800282, "score": 0.51 },
+					"2026": { "value": 11911214, "score": 0.65 },
+					"2030": { "value": 4845083, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope1",
+				"name": "Total GHG Scope 1",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 44611,
+				"values": {
+					"2025": { "value": 52255, "score": 0.31 },
+					"2026": { "value": 44611, "score": 0.46 },
+					"2030": { "value": 22844, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope2",
+				"name": "Total GHG Scope 2",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 20571,
+				"values": {
+					"2025": { "value": 23010, "score": 0.39 },
+					"2026": { "value": 20571, "score": 0.49 },
+					"2030": { "value": 8358, "score": 0.98 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Total GHG Scope 3",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 22772865,
+				"values": {
+					"2025": { "value": 25621730, "score": 0 },
+					"2026": { "value": 22772865, "score": 0.13 },
+					"2030": { "value": 10419762, "score": 0.7 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Purchased goods and services",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 7720005,
+				"values": {
+					"2025": { "value": 8163675, "score": 0.44 },
+					"2026": { "value": 7720005, "score": 0.48 },
+					"2030": { "value": 2800317, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Fuel and energy-related activities",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 10162,
+				"values": {
+					"2025": { "value": 10204, "score": 0.7 },
+					"2026": { "value": 10162, "score": 0.7 },
+					"2030": { "value": 4644, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Waste generated in operations",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 2195,
+				"values": {
+					"2025": { "value": 2785, "score": 0.13 },
+					"2026": { "value": 2195, "score": 0.38 },
+					"2030": { "value": 1188, "score": 0.82 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Use of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 7868777,
+				"values": {
+					"2025": { "value": 9794016, "score": 0 },
+					"2026": { "value": 7868777, "score": 0.26 },
+					"2030": { "value": 3645759, "score": 0.83 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "End-of-life treatment of sold products",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 785350,
+				"values": {
+					"2025": { "value": 942342, "score": 0 },
+					"2026": { "value": 785350, "score": 0.22 },
+					"2030": { "value": 298988, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Upstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 552886,
+				"values": {
+					"2025": { "value": 651603, "score": 0.41 },
+					"2026": { "value": 552886, "score": 0.53 },
+					"2030": { "value": 178613, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Downstream transportation and distribution",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 103393,
+				"values": {
+					"2025": { "value": 122211, "score": 0 },
+					"2026": { "value": 103393, "score": 0.2 },
+					"2030": { "value": 45042, "score": 0.81 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Business travels",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 14056,
+				"values": {
+					"2025": { "value": 14169, "score": 0.23 },
+					"2026": { "value": 14056, "score": 0.24 },
+					"2030": { "value": 7637, "score": 0.76 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgScope3",
+				"name": "Employee commuting",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 64.35,
+				"values": {
+					"2025": { "value": 82.13, "score": 0.55 },
+					"2026": { "value": 64.35, "score": 0.68 },
+					"2030": { "value": 19.96, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "climateChange",
+				"pillar_subcategory": "ghgIntensity",
+				"name": "GHG intensity based on net revenue",
+				"unit": "tonnes of CO2eq",
+				"target_value_description": "Lower is better",
+				"value": 0,
+				"values": {
+					"2025": { "value": 0, "score": 1 },
+					"2026": { "value": 0, "score": 1 },
+					"2030": { "value": 0, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterConsumption",
+				"name": "Total water consumption",
+				"unit": "million liters",
+				"target_value_description": "Lower is better",
+				"value": 26303,
+				"values": {
+					"2025": { "value": 26678, "score": 0.07 },
+					"2026": { "value": 26303, "score": 0.08 },
+					"2030": { "value": 15681, "score": 0.54 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterIntensity",
+				"name": "Water intensity per net revenue",
+				"unit": "liters per one million dollars",
+				"target_value_description": "Higher is better",
+				"value": 0.49,
+				"values": {
+					"2025": { "value": 0.52, "score": 0.84 },
+					"2026": { "value": 0.49, "score": 0.78 },
+					"2030": { "value": 0.24, "score": 0.28 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "waterAndMarineSources",
+				"pillar_subcategory": "waterRestoration",
+				"name": "Water restored",
+				"unit": "million liters",
+				"target_value_description": "Higher is better",
+				"value": 4234,
+				"values": {
+					"2025": { "value": 5022, "score": 0.84 },
+					"2026": { "value": 4234, "score": 0.67 },
+					"2030": { "value": 2181, "score": 0.23 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "biodiversityAndEcosystems",
+				"pillar_subcategory": "impactedSpecies",
+				"name": "Impacted species change in habitat",
+				"unit": "boolean",
+				"target_value_description": "False is good",
+				"value": true,
+				"values": {
+					"2025": { "value": true, "score": 1 },
+					"2026": { "value": true, "score": 1 },
+					"2030": { "value": true, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceUseAndCircularEconomy",
+				"name": "Increase in circular design",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 8.19,
+				"values": {
+					"2025": { "value": 9.86, "score": 0.7 },
+					"2026": { "value": 8.19, "score": 0.54 },
+					"2030": { "value": 2.93, "score": 0.03 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 475.2,
+				"values": {
+					"2025": { "value": 481.8, "score": 0.73 },
+					"2026": { "value": 475.2, "score": 0.73 },
+					"2030": { "value": 229.7, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of materials that come out of the undertaking’s products and services production process (including packaging) that have been designed along circular principles",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 37.71,
+				"values": {
+					"2025": { "value": 42.24, "score": 0.77 },
+					"2026": { "value": 37.71, "score": 0.66 },
+					"2030": { "value": 19.66, "score": 0.21 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total weight of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.",
+				"unit": "tonnes",
+				"target_value_description": "Does not apply",
+				"value": 648.1,
+				"values": {
+					"2025": { "value": 827, "score": 0.35 },
+					"2026": { "value": 648.1, "score": 0.55 },
+					"2030": { "value": 225.2, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Percentage of products and materials that come out of the undertaking including packaging that are designed to enhance/enable circular economy for customers further down the value chain.\r\n",
+				"unit": "%",
+				"target_value_description": "Higher is better",
+				"value": 47.16,
+				"values": {
+					"2025": { "value": 58.01, "score": 0.62 },
+					"2026": { "value": 47.16, "score": 0.45 },
+					"2030": { "value": 17.96, "score": 0 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "Total amount of waste generated by own operations",
+				"unit": "tonnes",
+				"target_value_description": "Lower is better",
+				"value": 150067,
+				"values": {
+					"2025": { "value": 188555, "score": 0.4 },
+					"2026": { "value": 150067, "score": 0.58 },
+					"2030": { "value": 58072, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The total amount of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 46139,
+				"values": {
+					"2025": { "value": 51847, "score": 0.29 },
+					"2026": { "value": 46139, "score": 0.41 },
+					"2030": { "value": 19250, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Environment",
+				"pillar_category": "resourceUseAndCircularEconomy",
+				"pillar_subcategory": "resourceOutflows",
+				"name": "The percentage of non-recycled waste",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 19.14,
+				"values": {
+					"2025": { "value": 20.59, "score": 0.64 },
+					"2026": { "value": 19.14, "score": 0.68 },
+					"2030": { "value": 10.8, "score": 0.94 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 50847,
+				"values": {
+					"2025": { "value": 65617, "score": 0.44 },
+					"2026": { "value": 50847, "score": 0.64 },
+					"2030": { "value": 24430, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of male employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 41643,
+				"values": {
+					"2025": { "value": 49093, "score": 0 },
+					"2026": { "value": 41643, "score": 0.19 },
+					"2030": { "value": 13808, "score": 0.89 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of male employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 61.19,
+				"values": {
+					"2025": { "value": 62.85, "score": 0 },
+					"2026": { "value": 61.19, "score": 0.03 },
+					"2030": { "value": 34.47, "score": 0.55 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total number of female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 35149,
+				"values": {
+					"2025": { "value": 44824, "score": 0.02 },
+					"2026": { "value": 35149, "score": 0.29 },
+					"2030": { "value": 16184, "score": 0.8 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage of female employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 58.62,
+				"values": {
+					"2025": { "value": 58.83, "score": 0.18 },
+					"2026": { "value": 58.62, "score": 0.19 },
+					"2030": { "value": 28.75, "score": 0.78 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Total difference male female employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 263,
+				"values": {
+					"2025": { "value": 310.2, "score": 0 },
+					"2026": { "value": 263, "score": 0.21 },
+					"2030": { "value": 89.9, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "employees",
+				"name": "Percentage difference male female employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.35,
+				"values": {
+					"2025": { "value": 0.42, "score": 0.36 },
+					"2026": { "value": 0.35, "score": 0.52 },
+					"2030": { "value": 0.15, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 44394,
+				"values": {
+					"2025": { "value": 46436, "score": 0.62 },
+					"2026": { "value": 44394, "score": 0.65 },
+					"2030": { "value": 23401, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of male full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 34058,
+				"values": {
+					"2025": { "value": 39922, "score": 0 },
+					"2026": { "value": 34058, "score": 0.17 },
+					"2030": { "value": 12859, "score": 0.8 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of male full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 42.67,
+				"values": {
+					"2025": { "value": 47.62, "score": 0.35 },
+					"2026": { "value": 42.67, "score": 0.43 },
+					"2030": { "value": 16.14, "score": 0.91 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total number of female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 23864,
+				"values": {
+					"2025": { "value": 27682, "score": 0.39 },
+					"2026": { "value": 23864, "score": 0.5 },
+					"2030": { "value": 10100, "score": 0.9 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage of female full-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 40.35,
+				"values": {
+					"2025": { "value": 42.86, "score": 0.41 },
+					"2026": { "value": 40.35, "score": 0.46 },
+					"2030": { "value": 14.66, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Total difference of male female full-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 281.7,
+				"values": {
+					"2025": { "value": 292.1, "score": 0.52 },
+					"2026": { "value": 281.7, "score": 0.54 },
+					"2030": { "value": 136.2, "score": 0.88 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "fullTimeEmployees",
+				"name": "Percentage difference of male female full-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.56,
+				"values": {
+					"2025": { "value": 0.61, "score": 0.35 },
+					"2026": { "value": 0.56, "score": 0.44 },
+					"2030": { "value": 0.24, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 12636,
+				"values": {
+					"2025": { "value": 14104, "score": 0.4 },
+					"2026": { "value": 12636, "score": 0.48 },
+					"2030": { "value": 3888, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of male part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 6689,
+				"values": {
+					"2025": { "value": 8322, "score": 0.44 },
+					"2026": { "value": 6689, "score": 0.64 },
+					"2030": { "value": 3766, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of male part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 59.4,
+				"values": {
+					"2025": { "value": 60.69, "score": 0.19 },
+					"2026": { "value": 59.4, "score": 0.21 },
+					"2030": { "value": 35, "score": 0.7 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total number of female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 6408,
+				"values": {
+					"2025": { "value": 7068, "score": 0.5 },
+					"2026": { "value": 6408, "score": 0.58 },
+					"2030": { "value": 3090, "score": 0.96 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage of female part-time employees",
+				"unit": "%",
+				"target_value_description": "Does not apply",
+				"value": 51.45,
+				"values": {
+					"2025": { "value": 66.44, "score": 0 },
+					"2026": { "value": 51.45, "score": 0.27 },
+					"2030": { "value": 26.47, "score": 0.72 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Total difference of male female part-time employees",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 72.23,
+				"values": {
+					"2025": { "value": 84.33, "score": 0.49 },
+					"2026": { "value": 72.23, "score": 0.59 },
+					"2030": { "value": 26.12, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "partTimeEmployees",
+				"name": "Percentage difference of male female part-time employees",
+				"unit": "%",
+				"target_value_description": "Closest to 0",
+				"value": 0.67,
+				"values": {
+					"2025": { "value": 0.77, "score": 0 },
+					"2026": { "value": 0.67, "score": 0.18 },
+					"2030": { "value": 0.2, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 345.7,
+				"values": {
+					"2025": { "value": 346.7, "score": 0.56 },
+					"2026": { "value": 345.7, "score": 0.57 },
+					"2030": { "value": 163.1, "score": 0.99 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of male top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 297,
+				"values": {
+					"2025": { "value": 380.1, "score": 0 },
+					"2026": { "value": 297, "score": 0.27 },
+					"2030": { "value": 174.7, "score": 0.67 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of male top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 35.23,
+				"values": {
+					"2025": { "value": 42.43, "score": 0.59 },
+					"2026": { "value": 35.23, "score": 0.71 },
+					"2030": { "value": 20.22, "score": 0.97 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Total number of female top management",
+				"unit": "decimal",
+				"target_value_description": "Does not apply",
+				"value": 126,
+				"values": {
+					"2025": { "value": 140.2, "score": 0.48 },
+					"2026": { "value": 126, "score": 0.56 },
+					"2030": { "value": 46.7, "score": 1 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "topManagement",
+				"name": "Percentage of female top management",
+				"unit": "%",
+				"target_value_description": "50/50",
+				"value": 28.06,
+				"values": {
+					"2025": { "value": 29.38, "score": 0.7 },
+					"2026": { "value": 28.06, "score": 0.72 },
+					"2030": { "value": 16.63, "score": 0.93 }
+				}
+			},
+			{
+				"pillar": "Social",
+				"pillar_category": "ownWorkforce",
+				"pillar_subcategory": "healtAndSafety",
+				"name": "Rate of recordable work-related accidents",
+				"unit": "%",
+				"target_value_description": "Lower is better",
+				"value": 0.6,
+				"values": {
+					"2025": { "value": 0.63, "score": 0.56 },
+					"2026": { "value": 0.6, "score": 0.6 },
+					"2030": { "value": 0.22, "score": 1 }
+				}
+			}
+		],
+		"score": {
+			"Environment": { "2025": 0.39, "2026": 0.46, "2030": 0.77 },
+			"Social": { "2025": 0.32, "2026": 0.43, "2030": 0.9 },
+			"Governance": { "2025": 0.23, "2026": 0.48, "2030": 0.78 },
+			"ESG": { "2025": 0.31, "2026": 0.46, "2030": 0.82 },
+			"categoryScores": {
+				"climateChange": { "2025": 0.3, "2026": 0.4, "2030": 0.85, "group": "Environment" },
+				"waterAndMarineSources": {
+					"2025": 0.58,
+					"2026": 0.51,
+					"2030": 0.35,
+					"group": "Environment"
+				},
+				"biodiversityAndEcosystems": { "2025": 1, "2026": 1, "2030": 1, "group": "Environment" },
+				"resourceUseAndCircularEconomy": {
+					"2025": 0.56,
+					"2026": 0.58,
+					"2030": 0.64,
+					"group": "Environment"
+				},
+				"ownWorkforce": { "2025": 0.32, "2026": 0.43, "2030": 0.9, "group": "Social" }
+			}
+		}
+	}
+]

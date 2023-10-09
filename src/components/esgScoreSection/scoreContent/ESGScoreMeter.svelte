@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let data;
+	export let year;
 	export let companyData;
 </script>
 
@@ -13,7 +14,7 @@
 	</div>
 	<div class="bar-top-container">
 		<div class="bar-container">
-			<div style="width: {companyData.esgScore * 100}%;" class="bar-value" />
+			<div style="width: {companyData.score.ESG[year] * 100}%;" class="bar-value" />
 			<div class="line-container">
 				<div class="line" />
 				<div class="line" />
@@ -33,10 +34,12 @@
 		width: 100%;
 		justify-content: center;
 		flex: 1;
+		margin-bottom: 0.5em;
 	}
 	section .letter-container div {
 		text-align: center;
 		flex: 1;
+		color: white;
 	}
 	.bar-top-container {
 		width: 100%;
@@ -45,15 +48,17 @@
 	.bar-container {
 		width: 100%;
 		height: 5px;
-		background-color: rgba(0, 0, 0, 0.3);
+		background-color: white;
 		position: relative;
+		border-radius: 10px;
 	}
 	.bar-value {
 		height: 5px;
-		background-color: black;
+		background-color: var(--blue-color);
 		position: absolute;
 		left: 0;
 		top: 0;
+		border-radius: 10px;
 	}
 	.line-container {
 		display: flex;
@@ -62,7 +67,8 @@
 
 	.line {
 		height: 10px;
-		border-right: solid 1px black;
+		border-right: solid 1px white;
+
 		position: absolute;
 		transform: translateY(-25%);
 	}
