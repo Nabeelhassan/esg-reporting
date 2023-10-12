@@ -11,7 +11,8 @@
 p,
 button,
 a,
-text {
+text,
+div {
 	font-family: 'NeutralStd';
 	line-height: 1.5;
 }
@@ -24,6 +25,7 @@ h5,
 h6 {
 	font-family: 'FamiljenGrotesk';
 	font-weight: 400;
+	text-wrap: balance;
 }
 
 p,
@@ -45,4 +47,26 @@ h6 {
 
 body {
 	margin: 0;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 0.8;
+}
+h2 {
+	font-size: 2.5em;
+}
+h3 {
+	font-size: 2em;
+}
+h4 {
+	font-size: 1.75em;
+}
+h5 {
+	font-size: 1.5em;
+}
+
+ul,
+li {
+	color: var(--text-color);
 }

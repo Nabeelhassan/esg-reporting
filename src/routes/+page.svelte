@@ -1,9 +1,10 @@
 <script lang="ts">
 	export let data;
-	import CompanyRankingSection from '../components/sections/CompanyRankingSection.svelte';
+	import { page } from '$app/stores';
 	import EsgScoreSection from '../components/esgScoreSection/EsgScoreSection.svelte';
 	import LandSection from '../components/landSection/LandSection.svelte';
 	import { writable } from 'svelte/store';
+	import ExploreMoreSection from '../components/ExploreMoreSection/ExploreMoreSection.svelte';
 	const count = writable(0);
 
 	// const pillars = data.data.map((item) => item.group);
@@ -42,6 +43,8 @@
 <EsgScoreSection companyData={nike} content={contentPresent} {count} year={'2026'} />
 
 <EsgScoreSection companyData={nike} content={contentFuture} {count} year={'2030'} />
+
+<ExploreMoreSection {page} />
 
 <!-- <CompanyRankingSection {data} year={'2026'} {count} /> -->
 

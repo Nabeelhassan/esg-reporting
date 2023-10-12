@@ -7,6 +7,7 @@
 <style>
 	section {
 		display: flex;
+		flex-direction: column;
 		margin: auto;
 	}
 	p {
@@ -14,7 +15,7 @@
 		justify-content: center;
 		position: relative;
 		flex: 1;
-		margin: 0 1em;
+		margin: 1rem 0;
 	}
 	p::before {
 		position: absolute;

@@ -4,19 +4,20 @@
 	export let year;
 	export let content;
 	export let radialGradientString: string;
+	import roundToDecimal from '../../helpers/roundToDecimal';
 </script>
 
 <section class="land" style="background:{radialGradientString}">
 	<div class="titles">
 		<h1><b>{companyData.name}</b> ESG Report</h1>
-		<h1><b>{companyData.score.ESG[year]}</b>/1 ESG Score 2025</h1>
+		<h1><b>{roundToDecimal(companyData.score.ESG[year], 100)}</b>/1 ESG Score 2025</h1>
 	</div>
 	<h2>{content.tag}</h2>
 </section>
 
 <style>
 	.land {
-		min-height: 95vh;
+		height: calc(100vh - 4rem);
 		padding: 2rem;
 		display: flex;
 		flex-direction: column;
@@ -35,11 +36,11 @@
 	}
 	h1 {
 		text-transform: uppercase;
-		font-size: 50px;
+		font-size: clamp(2rem, 3.5vw, 3rem);
 		margin: 0;
 	}
 	h2 {
-		font-size: 110px;
+		font-size: clamp(5rem, 7.5vw, 6rem);
 		line-height: 1;
 		width: 80%;
 		margin: 0;

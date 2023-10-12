@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
+	import SpinEsgBoard from './SpinESGBoard.svelte';
 	let container;
 	let svg;
 	// import SpinBarsContainer from './SpinBarsContainer.svelte';
@@ -32,21 +33,28 @@
 	$: color = () => '';
 	$: realData = [];
 	$: areaGenerator1 = () => 0;
+	$: maxData = [
+		{
+			group: '',
+			x: 0,
+			value: 0
+		}
+	];
 	onMount(async () => {
 		// set the dimensions and margins of the graph
 		if (!container) return;
 		const aspectRatio = 446.09 / 710.01;
 
 		margin = {
-			top: container.offsetHeight * 0,
-			right: container.offsetWidth * 0.05,
-			bottom: container.offsetHeight * 0.05,
-			left: container.offsetWidth * 0.05
+			top: 8,
+			right: 54,
+			bottom: 8,
+			left: 54
 		};
 
 		width = container.offsetHeight * aspectRatio - margin.right - margin.left;
 		height = container.offsetHeight - margin.top - margin.bottom;
-		const maxRotate = 45;
+		const maxRotate = 30;
 		rotation = -maxRotate + companyData.score.ESG[year] * maxRotate;
 
 		const groups = ['Environment', 'Social', 'Governance'];
@@ -159,6 +167,49 @@
 				value: 0
 			}
 		];
+		const includedGroups = ['social', 'governance', 'environment'];
+		maxData = [
+			{
+				group: 'startSvg',
+				x: 0,
+				value: 0.04
+			},
+			{
+				group: 'endStick',
+				x: 0.3,
+				value: 0.02
+			},
+			{
+				group: 'endStick',
+				x: 0.4,
+				value: 0.05
+			},
+			{
+				group: 'environment',
+				x: 0.55,
+				value: 1 / 2
+			},
+			{
+				group: 'social',
+				x: 0.65,
+				value: 1 / 2
+			},
+			{
+				group: 'governance',
+				x: 0.75,
+				value: 1 / 2
+			},
+			{
+				group: 'end1',
+				x: 0.9,
+				value: 0.025
+			},
+			{
+				group: 'end2',
+				x: 1,
+				value: 0
+			}
+		];
 		areaGenerator1 = d3
 			.area()
 			.x0((d) => x(d.value))
@@ -188,9 +239,10 @@
 		>
 		<g
 			style="trandsform-box: fill-box; transform-origin: center"
-			transform="translate({margin.left} {margin.top}) rotate({rotation})"
+			transform="translate({margin.left} {margin.top})"
 		>
-			<svelte:component this={SpinPath} {newData} {areaGenerator1} />
+			<svelte:component this={SpinPath} {newData} {maxData} {areaGenerator1} />
+
 			<!-- Bar chart -->
 			<svelte:component
 				this={SpinBarsContainer}
@@ -209,13 +261,17 @@
 <style>
 	div.viz-container {
 		height: 100%;
+		width: 100%;
 		display: flex;
 		justify-content: center;
-		width: 100%;
 		min-width: 30rem;
+		flex: 1 1 100%;
 	}
 	div.viz-container > :global(svg .spinner) {
 		transition: opacity 0.3s ease;
+	}
+	svg {
+		transform: translateY();
 	}
 
 	div.viz-container > :global(svg .barchart),

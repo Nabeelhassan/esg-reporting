@@ -1,76 +1,36 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
+	import { uid } from 'uid';
+
 	export let data;
+	export let year;
 	export let pillarColor;
+	export let colors;
 	let treemapContainer;
 
 	onMount(() => {
 		const width = treemapContainer.offsetWidth;
 		const height = treemapContainer.offsetHeight;
 		const chart = () => {
-			let data = {
-				name: 'GHG scopes',
-				children: [
-					{
-						name: 'GHG scope 1',
-						value: 50868
-					},
-					{
-						name: 'GHG scope 2',
-						value: 24900
-					},
-					{
-						name: 'GHG scope 3',
-						children: [
-							{
-								name: 'Purchased goods and services',
-								value: 8476358
-							},
-							{
-								name: 'Fuel and energy-related activities',
-								value: 15062
-							},
-							{
-								name: 'Waste generated in operations',
-								value: 1999
-							},
-							{
-								name: 'Use of sold products',
-								value: 7968735
-							},
-							{
-								name: 'End-of-life treatment of sold products',
-								value: 618851
-							},
-							{
-								name: 'Upstream transportation and distribution',
-								value: 644305
-							},
-							{
-								name: 'Downstream transportation and distribution',
-								value: 85146
-							},
-							{
-								name: 'Business travels',
-								value: 13297
-							},
-							{
-								name: 'Employee commuting',
-								value: 98473
-							}
-						]
-					}
-				]
+			const subcategories = [...new Set(data.map((item) => item.pillar_subsubcategory_name))];
+			const newData = subcategories.map((subCategory) => {
+				const filteredData = data.filter((item) => item.pillar_subsubcategory_name === subCategory);
+				return { name: subCategory, children: filteredData };
+			});
+			data = {
+				name: data[0].pillar_subcategory_name,
+				children: newData
 			};
 
 			const root = treemap(data, width, height);
-			const color = d3.scaleOrdinal(['#BCDA7F', '#D5E4B6', '#E7F1D3']);
 
 			const svg = d3
 				.select(treemapContainer)
 				.append('svg')
-				.attr('viewBox', [0, 0, width, height])
+				// .attr('viewBox', [0, 0, width, height])
+				.attr('width', width)
+				.attr('height', height)
 				.style('font', '10px sans-serif')
 				.style('background-color', 'black');
 
@@ -82,21 +42,86 @@
 
 			leaf
 				.append('rect')
-				// .attr('id', (d) => (d.leafUid = DOM.uid('leaf')).id)
 				.attr('fill', (d) => {
 					while (d.depth > 1) d = d.parent;
-					return color(d.data.name);
+					const currentColor = colors.find((color) => color.name === d.data.name);
+					return currentColor.value;
 				})
 				.attr('fill-opacity', 1)
 				.attr('width', (d) => d.x1 - d.x0)
 				.attr('height', (d) => d.y1 - d.y0);
-
+			const format = d3.format(',d');
+			leaf.append('title').text(
+				(d) =>
+					`${d
+						.ancestors()
+						.reverse()
+						.map((d) => d.data.name)
+						.join('/')}\n${format(d.value)}`
+			);
+			leaf
+				.append('clipPath')
+				.attr('id', (d) => (d.clipUid = uid(3)))
+				.append('use')
+				.attr('xlink:href', (d) => d.clipUid);
 			leaf
 				.append('text')
-				.datum((d) => d.data.name)
-				.attr('y', 16)
+				.attr('clip-path', (d) => d.clipUid)
+				.selectAll('tspan')
+				.data((d) => {
+					const formattedValue = format(d.value);
+					const unit = 'CO2eq';
+					return [
+						{ text: formattedValue, fontSize: '1.15rem', yOffset: 1.1 },
+						{ text: unit, fontSize: '0.75rem', xOffset: 1.5 }
+					];
+				})
+				.join('tspan')
+				.attr('x', 32)
+				.attr('dy', 0)
+				.style('font-size', (d) => d.fontSize)
+				.style('font-family', 'FamiljenGrotesk')
+				.text((d) => d.text);
+
+			leaf
+				.selectAll('tspan')
+				.data((d) => {
+					const formattedValue = format(d.value);
+					const unit = 'CO2eq';
+
+					return [
+						{ text: formattedValue, yOffset: 1.1, xOffset: 16 },
+						{ text: unit, xOffset: 1.5 }
+					];
+				})
+				.join('tspan')
+				.attr('x', (d, i, nodes) => {
+					if (i === 1) {
+						const previousWidth = nodes[0].getComputedTextLength();
+						return previousWidth + Number(nodes[0].getAttribute('x') || 0) + Number(d.xOffset || 0);
+					}
+					return d.xOffset || 0;
+				})
+				.attr('dy', (d, i) => (i === 0 ? '0' : `${d.yOffset || 0}em`))
+				.attr('y', 32)
+				.text((d) => d.text);
+
+			const text = leaf.append('text').attr('class', 'hi');
+
+			text
+				.selectAll('text.hi')
+				.data((d, i, nodes) => {
+					const nameParts = d.data.name.split(/(?=[A-Z][a-z])|\s+/g);
+					// const sentenceWidth = tspan.reduce((a, b) => a + b.getComputedTextLength());
+					// console.log(sentenceWidth);
+					return nameParts;
+				})
+				.join('tspan')
 				.attr('x', 16)
-				.text((d) => d);
+				// .attr('dy', (d, i) => (0}em`))
+				.attr('y', (d, i, nodes) => `${3 + i}rem`)
+				.text((d) => d)
+				.style('font-size', '0.6rem');
 
 			return svg.node();
 		};
@@ -117,6 +142,13 @@
 
 <style>
 	section {
-		height: 100vh;
+		flex: 1 1 100%;
+		width: 100%;
+	}
+	section > :global(svg text.value) {
+		font-size: 1rem;
+	}
+	section > :global(*) {
+		font-family: 'FamiljenGrotesk';
 	}
 </style>

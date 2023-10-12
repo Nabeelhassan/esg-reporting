@@ -3,7 +3,8 @@
 	import EsgScoreMeter from './scoreContent/ESGScoreMeter.svelte';
 	import SpinPlotContainer from './spinPlot/SpinPlotContainer.svelte';
 	import TimeLineScore from '../TimeLineScore.svelte';
-	import ScoreLegend from '../ScoreLegend.svelte';
+	import ScoreLegend from './scoreContent/ScoreLegend.svelte';
+	import PillarLegend from '../PillarLegend.svelte';
 	export let companyData;
 	export let data;
 	export let content;
@@ -16,11 +17,12 @@
 		<div class="title-container">
 			<EsgScoreText {companyData} {year} />
 			<EsgScoreMeter {data} {companyData} {year} />
-		</div>
-		<div class="text-container">
 			<p>
 				{content}
 			</p>
+		</div>
+		<div class="timeline-container">
+			<TimeLineScore {year} />
 		</div>
 	</div>
 	<div>
@@ -28,7 +30,7 @@
 	</div>
 	<div class="right">
 		<ScoreLegend />
-		<TimeLineScore {year} />
+		<PillarLegend />
 	</div>
 </section>
 
@@ -37,6 +39,9 @@
 		display: flex;
 		min-height: 100vh;
 		padding: 5rem;
+	}
+	.title-container p {
+		margin-top: 2rem;
 	}
 
 	.left {
@@ -49,10 +54,14 @@
 		flex-direction: column;
 		justify-content: space-between;
 	}
-	section div:nth-of-type(odd) {
-		flex: 0.5;
+	.timeline-container {
+		height: 100%;
+		padding-top: 2rem;
+	}
+	section > div:nth-of-type(odd) {
+		flex: 1 1 50%;
 	}
 	section > div {
-		flex: 1;
+		flex: 1 1 100%;
 	}
 </style>

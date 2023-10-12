@@ -1,9 +1,7 @@
 <script lang="ts">
 	import NikeLogoSVG from './NikeLogoSVG.svelte';
 	import { page } from '$app/stores';
-	let path;
-
-	$: path = $page.url.pathname;
+	import NavPillarLinks from './Nav/NavPillarLinks.svelte';
 </script>
 
 <nav>
@@ -14,21 +12,7 @@
 		</a>
 	</div>
 	<div>
-		<a
-			class="{'/environment' === $page.url.pathname ? 'active' : ''} pillar"
-			style="--pillar-color: #BCDA7E"
-			href="/environment"><p>Environment</p></a
-		>
-		<a
-			class="{'/social' === $page.url.pathname ? 'active' : ''} pillar"
-			style="--pillar-color: #6257E2"
-			href="/social"><p>Social</p></a
-		>
-		<a
-			class="{'/governance' === $page.url.pathname ? 'active' : ''} pillar"
-			style="--pillar-color: #2AC28B"
-			href="/governance"><p>Governance</p></a
-		>
+		<NavPillarLinks {page} />
 	</div>
 	<div>
 		<a

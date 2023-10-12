@@ -5,16 +5,16 @@
 </script>
 
 <section>
+	<div class="timeline-container">
+		<div>
+			<div class="diamond" style="--y-position: {yearValue}%" />
+		</div>
+	</div>
 	<div>
 		<div class="year-container" style="--y-position: {yearValue}%">
 			<p>
 				{year}
 			</p>
-		</div>
-	</div>
-	<div class="timeline-container">
-		<div>
-			<div class="diamond" style="--y-position: {yearValue}%" />
 		</div>
 	</div>
 </section>
@@ -23,15 +23,16 @@
 	section {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-start;
 		position: relative;
 		height: 100%;
 		flex: 1;
+		z-index: 0;
 	}
 
 	section > div,
 	.timeline-container > div {
-		width: 5rem;
+		width: 1rem;
 		position: relative;
 		height: 100%;
 	}
@@ -59,6 +60,7 @@
 	.year-container {
 		position: absolute;
 		top: var(--y-position);
+		left: 0;
 	}
 
 	.year-container > p {
@@ -69,8 +71,8 @@
 	}
 
 	.diamond {
-		width: 1rem;
-		height: 1rem;
+		width: 0.75rem;
+		height: 0.75rem;
 		z-index: 1;
 	}
 
