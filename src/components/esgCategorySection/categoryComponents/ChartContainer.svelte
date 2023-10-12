@@ -6,14 +6,14 @@
 	export let year;
 	export let colors;
 	const charts = {
-		Treemap: '../charts/Treemap.svelte',
-		CircleWaste: '../charts/CircleWaste.svelte',
-		WaterBars: '../charts/WaterBars.svelte',
-		TopManagement: '../charts/TopManagement.svelte',
-		FulltimeParttime: '../charts/FulltimeParttime.svelte',
-		MaleFemaleTotal: '../charts/MaleFemaleTotal.svelte',
-		PaymentPractices: '../charts/PaymentPractices.svelte',
-		CorruptionBribery: '../charts/CorruptionBribery.svelte'
+		Treemap: () => import('../charts/Treemap.svelte'),
+		CircleWaste: () => import('../charts/CircleWaste.svelte'),
+		WaterBars: () => import('../charts/WaterBars.svelte'),
+		TopManagement: () => import('../charts/TopManagement.svelte'),
+		FulltimeParttime: () => import('../charts/FulltimeParttime.svelte'),
+		MaleFemaleTotal: () => import('../charts/MaleFemaleTotal.svelte'),
+		PaymentPractices: () => import('../charts/PaymentPractices.svelte'),
+		CorruptionBribery: () => import('../charts/CorruptionBribery.svelte')
 	};
 	let chosenChart;
 	let storeData = data;
@@ -26,12 +26,14 @@
 		storeData = data.filter((item) => !dontInclude.includes(item.name));
 	}
 	onMount(async () => {
-		chosenChart = (await import(charts[chartString])).default;
+		chosenChart = await charts[chartString].default;
 	});
 </script>
 
 <section>
-	<svelte:component this={chosenChart} data={storeData} {year} {colors} />
+	{#await charts[chartString]() then module}
+		<svelte:component this={module.default} data={storeData} {year} {colors} />
+	{/await}
 	{#if chartString === 'Treemap'}
 		<Legend {colors} />
 	{/if}
