@@ -40,6 +40,10 @@
 			value: 0
 		}
 	];
+	const imports = {
+		SpinBarsContainer: () => import('./SpinBarsContainer.svelte'),
+		SpinPath: () => import('./SpinPath.svelte')
+	};
 	onMount(async () => {
 		// set the dimensions and margins of the graph
 		if (!container) return;
@@ -218,8 +222,6 @@
 				return y(d.x);
 			})
 			.curve(d3.curveCatmullRom.alpha(1));
-		SpinBarsContainer = (await import('./SpinBarsContainer.svelte')).default;
-		SpinPath = (await import('./SpinPath.svelte')).default;
 	});
 	function roundToDecimal(num, decimal) {
 		return Math.round((num + Number.EPSILON) * decimal) / decimal;
@@ -241,19 +243,23 @@
 			style="trandsform-box: fill-box; transform-origin: center"
 			transform="translate({margin.left} {margin.top})"
 		>
-			<svelte:component this={SpinPath} {newData} {maxData} {areaGenerator1} />
+			{#await imports['SpinPath']() then module}
+				<svelte:component this={module.default} {newData} {maxData} {areaGenerator1} />
+			{/await}
 
-			<!-- Bar chart -->
-			<svelte:component
-				this={SpinBarsContainer}
-				{count}
-				{newestData}
-				{color}
-				{realData}
-				{container}
-				{width}
-				{height}
-			/>
+			{#await imports['SpinBarsContainer']() then module}
+				<!-- Bar chart -->
+				<svelte:component
+					this={module.default}
+					{count}
+					{newestData}
+					{color}
+					{realData}
+					{container}
+					{width}
+					{height}
+				/>
+			{/await}
 		</g>
 	</svg>
 </div>
@@ -274,12 +280,12 @@
 		transform: translateY();
 	}
 
-	div.viz-container > :global(svg .barchart),
+	div.viz-container > :global(svg mask > path),
 	div.viz-container > :global(svg .barchart-lines) {
 		opacity: 0;
 		transform: scaleX(0);
 	}
-	div.viz-container > :global(svg:hover .barchart) {
+	div.viz-container > :global(svg:hover mask > path) {
 		opacity: 1;
 		animation: 1s forwards grow;
 	}
