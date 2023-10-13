@@ -16,7 +16,7 @@
 	</div>
 	<div>
 		<a
-			class={'/our-story' === $page.url.pathname ? 'active' : ''}
+			class="{'/our-story' === $page.url.pathname ? 'active' : ''} our-story"
 			style="--pillar-color: #fff"
 			href="/our-story">Our story</a
 		>
@@ -81,5 +81,8 @@
 		transform: scaleX(0);
 		transform-origin: center;
 		transition: all 0.5s ease;
+	}
+	.our-story {
+		display: none;
 	}
 </style>
