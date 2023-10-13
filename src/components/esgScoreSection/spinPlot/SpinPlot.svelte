@@ -229,7 +229,11 @@
 </script>
 
 <div class="viz-container" bind:this={container}>
-	<svg bind:this={svg}>
+	<svg
+		bind:this={svg}
+		width={width + margin.left + margin.right}
+		height={height + margin.bottom + margin.top}
+	>
 		<linearGradient id="Gradient" x1="0%" x2="0%" y1="0%" y2="100%"
 			><stop offset="0%" stop-color="#E9E2D7" /><stop offset="35%" stop-color="#E9E2D7" /><stop
 				offset="55%"
