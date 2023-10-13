@@ -35,3 +35,10 @@
 	<path d="M484 124H0" stroke="#F4F4F4" />
 	<path d="M620 265H0" stroke="#F4F4F4" />
 </svg>
+
+<style>
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+</style>

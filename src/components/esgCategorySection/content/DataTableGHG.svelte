@@ -19,7 +19,10 @@
 </script>
 
 <section>
-	<div style="--grid-columns: {roundedTableContent.length}">
+	<div
+		style="--grid-columns: {roundedTableContent.length > 3 ? 2 : roundedTableContent.length};
+			 --grid-rows: {roundedTableContent.length > 3 ? 2 : 1}"
+	>
 		{#if roundedTableContent}
 			{#each roundedTableContent as tableItem}
 				<div class="table-header" style="--color: {pillarColor}">
@@ -44,6 +47,7 @@
 	section > div {
 		display: grid;
 		grid-template-columns: repeat(var(--grid-columns), 1fr);
+		grid-template-rows: repeat(var(--grid-rows), 1fr);
 	}
 	section > div > div {
 		grid-auto-rows: 1;

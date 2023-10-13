@@ -100,3 +100,10 @@
 	/>
 	<path d="M0 284H433.5" stroke="white" />
 </svg>
+
+<style>
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+</style>
