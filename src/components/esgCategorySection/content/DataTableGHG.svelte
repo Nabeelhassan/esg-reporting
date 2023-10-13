@@ -1,5 +1,4 @@
 <script>
-	export let data;
 	export let tableContent;
 	export let pillarColor;
 	import roundToDecimal from '../../../helpers/roundToDecimal';
