@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import Legend from '../charts/Legend.svelte';
 	export let chartString: string;
 	export let data;
 	export let year;
 	export let colors;
+	export let category;
 	const charts = {
 		Treemap: () => import('../charts/Treemap.svelte'),
 		CircleWaste: () => import('../charts/CircleWaste.svelte'),
@@ -21,21 +21,23 @@
 		const dontInclude = [
 			'Total GHG emissions',
 			'Total GHG Scope 3',
-			'GHG intensity based on net revenue'
+			'GHG intensity based on net revenue',
+			'Total energy consumption non-renewable sources',
+			'Total energy consumption renewable sources',
+			'Energy intensity based on net revenue',
+			'Share of renewable energy from total',
+			'Energy consumption total'
 		];
 		storeData = data.filter((item) => !dontInclude.includes(item.name));
 	}
-	onMount(async () => {
-		chosenChart = await charts[chartString].default;
-	});
 </script>
 
-<section>
+<section style="--align: {chartString === 'Treemap' ? 'center' : 'flex-end'}">
 	{#await charts[chartString]() then module}
 		<svelte:component this={module.default} data={storeData} {year} {colors} />
 	{/await}
 	{#if chartString === 'Treemap'}
-		<Legend {colors} />
+		<Legend {colors} {category} />
 	{/if}
 </section>
 
@@ -45,6 +47,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		align-items: flex-end;
+		align-items: var(--align);
 	}
 </style>

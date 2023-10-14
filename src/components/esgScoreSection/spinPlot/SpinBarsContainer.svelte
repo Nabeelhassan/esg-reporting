@@ -7,6 +7,7 @@
 	export let realData;
 	export let width;
 	export let height;
+	export let currentData;
 	import SpinBar from './SpinBar.svelte';
 	const pillars = ['environment', 'social', 'governance'];
 	const subgroupsEnvironment = [
@@ -32,5 +33,6 @@
 		{realData}
 		{width}
 		{height}
+		{currentData}
 	/>
 {/each}

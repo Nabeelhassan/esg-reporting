@@ -22,6 +22,7 @@
 				name: data[0].pillar_subcategory_name,
 				children: newData
 			};
+			console.log(data);
 
 			const root = treemap(data, width, height);
 
@@ -45,6 +46,7 @@
 				.attr('fill', (d) => {
 					while (d.depth > 1) d = d.parent;
 					const currentColor = colors.find((color) => color.name === d.data.name);
+					console.log(d.data.name);
 					return currentColor.value;
 				})
 				.attr('fill-opacity', 1)
@@ -113,7 +115,6 @@
 				.data((d, i, nodes) => {
 					const nameParts = d.data.name.split(/(?=[A-Z][a-z])|\s+/g);
 					// const sentenceWidth = tspan.reduce((a, b) => a + b.getComputedTextLength());
-					// console.log(sentenceWidth);
 					return nameParts;
 				})
 				.join('tspan')

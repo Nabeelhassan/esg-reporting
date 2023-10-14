@@ -1,12 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
-	import SpinEsgBoard from './SpinESGBoard.svelte';
+	import { writable } from 'svelte/store';
 	let container;
 	let svg;
-	// import SpinBarsContainer from './SpinBarsContainer.svelte';
-	let SpinBarsContainer;
-	let SpinPath;
 	export let companyData;
 	export let year;
 	export let count;
@@ -40,6 +37,7 @@
 			value: 0
 		}
 	];
+	const currentData = writable({ name: undefined, value: null });
 	const imports = {
 		SpinBarsContainer: () => import('./SpinBarsContainer.svelte'),
 		SpinPath: () => import('./SpinPath.svelte')
@@ -262,10 +260,18 @@
 					{container}
 					{width}
 					{height}
+					{currentData}
 				/>
 			{/await}
 		</g>
 	</svg>
+	<div class="tooltip-container" style="width: {width}px; height: {height}px">
+		{#if $currentData.name}
+			<div class="tooltip" style="--left: {$currentData.x}px; --top: {$currentData.y}px">
+				<p>{$currentData.name}: {$currentData.value}</p>
+			</div>
+		{/if}
+	</div>
 </div>
 
 <style>
@@ -324,5 +330,40 @@
 		100% {
 			transform: scaleX(1);
 		}
+	}
+	div.tooltip {
+		position: absolute;
+		top: var(--top);
+		left: var(--left);
+		pointer-events: none;
+		background-color: white;
+		padding: 1rem;
+		border-radius: 10px;
+		transform: translateY(-80%) translateX(-50%);
+		width: 100%;
+		text-align: center;
+	}
+	div.tooltip::after {
+		position: absolute;
+		content: '';
+		width: 0;
+		height: 0;
+		bottom: 1px;
+		left: 50%;
+		transform: translate(-50%, 100%);
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid white;
+		z-index: 3000;
+	}
+	div.tooltip > p {
+		color: var(--theme-color);
+		margin: 0;
+	}
+	.tooltip-container {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		pointer-events: none;
 	}
 </style>

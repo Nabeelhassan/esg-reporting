@@ -123,7 +123,6 @@
 					}
 				];
 				const useData = newestData.find((item) => item.group === pillar);
-				console.log(useData);
 
 				const defs = svg.append('defs');
 				const maxRotate = 30;

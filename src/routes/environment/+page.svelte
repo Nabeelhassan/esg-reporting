@@ -39,6 +39,15 @@
 
 <EsgCategorySection
 	data={nike}
+	category={'energyConsumption'}
+	chartString={'Treemap'}
+	description={`These values represent Nike's waste generation and recycling, measured in metric tonnes.`}
+	{pillarColor}
+	tableContent={tableContentWaste}
+/>
+
+<EsgCategorySection
+	data={nike}
 	category={'water'}
 	chartString={'WaterBars'}
 	description={`These values represent Nike's water restoration, water consumption, and water recycling efforts.`}

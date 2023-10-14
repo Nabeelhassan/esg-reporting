@@ -17,7 +17,6 @@
 		nike.score.Social[currentYear] +
 		nike.score.Governance[currentYear];
 
-	console.log(pillars);
 	const gradientValues = pillars.map(
 		(pillar) => (nike.score[pillar][currentYear] / summedPillarScores) * 100
 	);

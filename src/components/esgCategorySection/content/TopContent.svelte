@@ -8,7 +8,6 @@
 	export let pillarColor;
 	import DataTable from './DataTableGHG.svelte';
 	import roundToDecimal from '../../../helpers/roundToDecimal';
-	console.log(tableContent);
 	const dataScore = roundToDecimal(scoreData.values[year].score, 100);
 </script>
 

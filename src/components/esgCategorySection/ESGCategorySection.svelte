@@ -14,11 +14,12 @@
 			: item.pillar_subcategory === category
 	);
 	const title = categoryData[0].pillar_subcategory_name;
-	console.log(categoryData);
 	const colors = [
 		{ value: '#BCDA7F', name: 'GHG Scope 1' },
 		{ value: '#D5E4B6', name: 'GHG Scope 2' },
-		{ value: '#E7F1D3', name: 'GHG Scope 3' }
+		{ value: '#E7F1D3', name: 'GHG Scope 3' },
+		{ value: '#BCDA7F', name: 'Energy consumption renewable sources' },
+		{ value: '#D5E4B6', name: 'Energy consumption non-renewable sources' }
 	];
 </script>
 
@@ -31,7 +32,7 @@
 		{tableContent}
 		{pillarColor}
 	/>
-	<ChartContainer {chartString} data={categoryData} {year} {colors} />
+	<ChartContainer {category} {chartString} data={categoryData} {year} {colors} />
 </section>
 
 <style>

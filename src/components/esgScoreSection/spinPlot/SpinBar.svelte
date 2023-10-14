@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { stack, scaleLinear } from 'd3';
 	import { onMount } from 'svelte';
+	import roundToDecimal from '../../../helpers/roundToDecimal';
 	export let pillar;
 	export let count;
 	export let y;
@@ -12,6 +13,7 @@
 	export let subgroups;
 	export let width;
 	export let height;
+	export let currentData;
 	$: useData = {};
 	$: stringWithoutCornerRadius = '';
 	$: stackedData = [];
@@ -31,7 +33,6 @@
 		stackedData = preStackedData.map((item) => item.filter((innerItem, i) => index === i));
 
 		useData = newestData.find((item) => item.group === pillar);
-		console.log(useData);
 		const yCoor0 = y(useData.x);
 		barHeight = y(0.1);
 		const pathHeight = barHeight;
@@ -117,7 +118,7 @@
 	</mask>
 </defs>
 <g class="barchart">
-	{#each stackedData as g}
+	{#each stackedData as g, i}
 		{#each g as rect}
 			<rect
 				class="barchart-rect"
@@ -127,6 +128,22 @@
 				x={calcXPos(rect)}
 				width={x(rect[1]) - x(rect[0])}
 				height={barHeight}
+				on:mouseenter={() => {
+					const exclude = ['group', 'x'];
+					const dataKeys = Object.keys(rect.data).filter((item) => !exclude.includes(item));
+					const width = x(rect[1]) - x(rect[0]);
+					console.log(width);
+					currentData.set({
+						name: dataKeys[i],
+						value: roundToDecimal(rect.data[dataKeys[i]], 100),
+						x: calcXPos(rect) + width / 2,
+						y: y(rect.data.x)
+					});
+					console.log($currentData);
+				}}
+				on:mouseleave={() => {
+					currentData.set({ name: undefined, value: null });
+				}}
 			/>
 		{/each}
 	{/each}
