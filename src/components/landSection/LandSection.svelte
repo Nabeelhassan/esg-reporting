@@ -10,7 +10,7 @@
 <section class="land" style="background:{radialGradientString}">
 	<div class="titles">
 		<h1><b>{companyData.name}</b> ESG Report</h1>
-		<h1><b>{roundToDecimal(companyData.score.ESG[year], 100)}</b>/1 ESG Score 2025</h1>
+		<h1><b>{roundToDecimal(companyData.score.ESG[year], 100)}</b>/1 ESG Score 2026</h1>
 	</div>
 	<h2>{content.tag}</h2>
 </section>

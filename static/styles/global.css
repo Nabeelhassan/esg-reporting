@@ -49,22 +49,32 @@ h6 {
 body {
 	margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: var(--title-size);
+	/* letter-spacing: calc(var(--title-size) * 0.05); */
+}
 
 h1 {
-	font-size: 3em;
 	line-height: 0.8;
+	letter-spacing: -0.05em;
+	--title-size: 3em;
 }
 h2 {
-	font-size: 2.5em;
+	--title-size: 2.5em;
+	letter-spacing: -0.05em;
 }
 h3 {
-	font-size: 2em;
+	--title-size: 2em;
 }
 h4 {
-	font-size: 1.75em;
+	--title-size: 1.75em;
 }
 h5 {
-	font-size: 1.5em;
+	--title-size: 1.5em;
 }
 
 ul,

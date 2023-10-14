@@ -35,7 +35,7 @@
 	};
 </script>
 
-<LandSection companyData={nike} {data} {radialGradientString} year={'2025'} content={nikeContent} />
+<LandSection companyData={nike} {data} {radialGradientString} year={'2026'} content={nikeContent} />
 
 <EsgScoreSection companyData={nike} content={contentPast} {count} year={'2025'} />
 

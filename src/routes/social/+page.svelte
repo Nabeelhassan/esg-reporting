@@ -14,10 +14,8 @@
 
 	const tableContentFulltimeParttime = nike.values.filter(
 		(item) =>
-			item.name === 'Percentage of male full-time employees' ||
-			item.name === 'Percentage of male part-time employees' ||
-			item.name === 'Percentage of female full-time employees' ||
-			item.name === 'Percentage of female part-time employees'
+			item.name === 'Percentage difference of male female full-time employees' ||
+			item.name === 'Percentage difference of male female part-time employees'
 	);
 	const tableContentMaleFemaleTotal = nike.values.filter(
 		(item) =>

@@ -151,5 +151,6 @@
 	}
 	section > :global(*) {
 		font-family: 'FamiljenGrotesk';
+		letter-spacing: -0.05em;
 	}
 </style>
