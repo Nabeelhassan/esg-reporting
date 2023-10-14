@@ -17,6 +17,11 @@
 			item.name === 'Total water consumption' ||
 			item.name === 'Water recycled and reused'
 	);
+	const tableContentEnergyConsumption = nike.values.filter(
+		(item) =>
+			item.name === 'Energy consumption total' ||
+			item.name === 'Share of renewable energy from total'
+	);
 </script>
 
 <EsgCategorySection
@@ -41,9 +46,9 @@
 	data={nike}
 	category={'energyConsumption'}
 	chartString={'Treemap'}
-	description={`These values represent Nike's waste generation and recycling, measured in metric tonnes.`}
+	description={`These values represent Nike's Energy Consumption`}
 	{pillarColor}
-	tableContent={tableContentWaste}
+	tableContent={tableContentEnergyConsumption}
 />
 
 <EsgCategorySection

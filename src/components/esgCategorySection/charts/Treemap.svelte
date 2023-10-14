@@ -46,7 +46,6 @@
 				.attr('fill', (d) => {
 					while (d.depth > 1) d = d.parent;
 					const currentColor = colors.find((color) => color.name === d.data.name);
-					console.log(d.data.name);
 					return currentColor.value;
 				})
 				.attr('fill-opacity', 1)
@@ -72,7 +71,8 @@
 				.selectAll('tspan')
 				.data((d) => {
 					const formattedValue = format(d.value);
-					const unit = 'CO2eq';
+					const unit = d.data.unit;
+					console.log(d.data);
 					return [
 						{ text: formattedValue, fontSize: '1.15rem', yOffset: 1.1 },
 						{ text: unit, fontSize: '0.75rem', xOffset: 1.5 }
@@ -89,7 +89,7 @@
 				.selectAll('tspan')
 				.data((d) => {
 					const formattedValue = format(d.value);
-					const unit = 'CO2eq';
+					const unit = d.data.unit;
 
 					return [
 						{ text: formattedValue, yOffset: 1.1, xOffset: 16 },
