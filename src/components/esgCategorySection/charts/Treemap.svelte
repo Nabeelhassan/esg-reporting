@@ -22,7 +22,7 @@
 				name: data[0].pillar_subcategory_name,
 				children: newData
 			};
-			console.log(data);
+			const format = d3.format(',d');
 
 			const root = treemap(data, width, height);
 
@@ -40,6 +40,37 @@
 				.data(root.leaves())
 				.join('g')
 				.attr('transform', (d) => `translate(${d.x0},${d.y0})`);
+			const svgContainer = d3.select(treemapContainer);
+			const textPadding = 16;
+			const texty = svgContainer
+				.selectAll('section > div')
+				.data(root.leaves())
+				.join('div')
+				.attr(
+					'style',
+					(d) => `
+						transform: translate(${d.x0 + 8}px, ${d.y0 + 8}px);
+						position: absolute;
+						top: 0px;
+						left: 0px;
+						width: ${d.x1 - d.x0 - 8}px;
+						height: ${d.y1 - d.y0 - 8}px;
+						color: var(--theme-color);
+						overflow: hidden;
+						hyphens: auto;
+					`
+				)
+				.attr('class', 'treemap-rect-text')
+				.html((d) => {
+					const formattedValue = format(d.value);
+					let unit = d.data.unit;
+					if (unit === 'CO2eq') unit = 'CO<sub>2</sub>';
+
+					return `
+						<p>${formattedValue}<span class="unit">${unit}</span></p>
+						<p><span class="unit">${d.data.name}</span></p>
+					`;
+				});
 
 			leaf
 				.append('rect')
@@ -51,7 +82,7 @@
 				.attr('fill-opacity', 1)
 				.attr('width', (d) => d.x1 - d.x0)
 				.attr('height', (d) => d.y1 - d.y0);
-			const format = d3.format(',d');
+
 			leaf.append('title').text(
 				(d) =>
 					`${d
@@ -60,69 +91,68 @@
 						.map((d) => d.data.name)
 						.join('/')}\n${format(d.value)}`
 			);
-			leaf
-				.append('clipPath')
-				.attr('id', (d) => (d.clipUid = uid(3)))
-				.append('use')
-				.attr('xlink:href', (d) => d.clipUid);
-			leaf
-				.append('text')
-				.attr('clip-path', (d) => d.clipUid)
-				.selectAll('tspan')
-				.data((d) => {
-					const formattedValue = format(d.value);
-					const unit = d.data.unit;
-					console.log(d.data);
-					return [
-						{ text: formattedValue, fontSize: '1.15rem', yOffset: 1.1 },
-						{ text: unit, fontSize: '0.75rem', xOffset: 1.5 }
-					];
-				})
-				.join('tspan')
-				.attr('x', 32)
-				.attr('dy', 0)
-				.style('font-size', (d) => d.fontSize)
-				.style('font-family', 'FamiljenGrotesk')
-				.text((d) => d.text);
+			// leaf
+			// 	.append('clipPath')
+			// 	.attr('id', (d) => (d.clipUid = uid(3)))
+			// 	.append('use')
+			// 	.attr('xlink:href', (d) => d.clipUid);
+			// leaf
+			// 	.append('text')
+			// 	.attr('clip-path', (d) => d.clipUid)
+			// 	.selectAll('tspan')
+			// 	.data((d) => {
+			// 		const formattedValue = format(d.value);
+			// 		const unit = d.data.unit;
+			// 		return [
+			// 			{ text: formattedValue, fontSize: '1.15rem', yOffset: 1.1 },
+			// 			{ text: unit, fontSize: '0.75rem', xOffset: 1.5 }
+			// 		];
+			// 	})
+			// 	.join('tspan')
+			// 	.attr('x', 32)
+			// 	.attr('dy', 0)
+			// 	.style('font-size', (d) => d.fontSize)
+			// 	.style('font-family', 'FamiljenGrotesk')
+			// 	.text((d) => d.text);
 
-			leaf
-				.selectAll('tspan')
-				.data((d) => {
-					const formattedValue = format(d.value);
-					const unit = d.data.unit;
+			// leaf
+			// 	.selectAll('tspan')
+			// 	.data((d) => {
+			// 		const formattedValue = format(d.value);
+			// 		const unit = d.data.unit;
 
-					return [
-						{ text: formattedValue, yOffset: 1.1, xOffset: 16 },
-						{ text: unit, xOffset: 1.5 }
-					];
-				})
-				.join('tspan')
-				.attr('x', (d, i, nodes) => {
-					if (i === 1) {
-						const previousWidth = nodes[0].getComputedTextLength();
-						return previousWidth + Number(nodes[0].getAttribute('x') || 0) + Number(d.xOffset || 0);
-					}
-					return d.xOffset || 0;
-				})
-				.attr('dy', (d, i) => (i === 0 ? '0' : `${d.yOffset || 0}em`))
-				.attr('y', 32)
-				.text((d) => d.text);
+			// 		return [
+			// 			{ text: formattedValue, yOffset: 1.1, xOffset: 16 },
+			// 			{ text: unit, xOffset: 1.5 }
+			// 		];
+			// 	})
+			// 	.join('tspan')
+			// 	.attr('x', (d, i, nodes) => {
+			// 		if (i === 1) {
+			// 			const previousWidth = nodes[0].getComputedTextLength();
+			// 			return previousWidth + Number(nodes[0].getAttribute('x') || 0) + Number(d.xOffset || 0);
+			// 		}
+			// 		return d.xOffset || 0;
+			// 	})
+			// 	.attr('dy', (d, i) => (i === 0 ? '0' : `${d.yOffset || 0}em`))
+			// 	.attr('y', 32)
+			// 	.text((d) => d.text);
 
-			const text = leaf.append('text').attr('class', 'hi');
+			// const text = leaf.append('text').attr('class', 'hi');
 
-			text
-				.selectAll('text.hi')
-				.data((d, i, nodes) => {
-					const nameParts = d.data.name.split(/(?=[A-Z][a-z])|\s+/g);
-					// const sentenceWidth = tspan.reduce((a, b) => a + b.getComputedTextLength());
-					return nameParts;
-				})
-				.join('tspan')
-				.attr('x', 16)
-				// .attr('dy', (d, i) => (0}em`))
-				.attr('y', (d, i, nodes) => `${3 + i}rem`)
-				.text((d) => d)
-				.style('font-size', '0.6rem');
+			// text
+			// 	.selectAll('text.hi')
+			// 	.data((d, i, nodes) => {
+			// 		const nameParts = d.data.name.split(/(?=[A-Z][a-z])|\s+/g);
+			// 		// const sentenceWidth = tspan.reduce((a, b) => a + b.getComputedTextLength());
+			// 		return nameParts;
+			// 	})
+			// 	.join('tspan')
+			// 	.attr('x', 16)
+			// 	// .attr('dy', (d, i) => (0}em`))
+			// 	.attr('y', (d, i, nodes) => `${3 + i}rem`)
+			// 	.text((d) => d)
+			// 	.style('font-size', '0.6rem');
 
 			return svg.node();
 		};
@@ -145,6 +175,7 @@
 	section {
 		flex: 1 1 100%;
 		width: 100%;
+		position: relative;
 	}
 	section > :global(svg text.value) {
 		font-size: 1rem;
@@ -152,5 +183,13 @@
 	section > :global(*) {
 		font-family: 'FamiljenGrotesk';
 		letter-spacing: -0.05em;
+	}
+	section > :global(.treemap-rect-text > p .unit) {
+		font-size: 0.75rem;
+	}
+	section > :global(.treemap-rect-text > p) {
+		font-size: 1rem;
+		color: var(--theme-color);
+		margin: 0;
 	}
 </style>

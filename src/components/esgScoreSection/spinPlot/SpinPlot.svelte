@@ -286,23 +286,23 @@
 	div.viz-container > :global(svg .spinner) {
 		transition: opacity 0.3s ease;
 	}
-	svg {
-		transform: translateY();
-	}
 
-	div.viz-container > :global(svg mask > path),
+	div.viz-container > :global(svg mask > path) {
+		transform: scaleX(0.01);
+		transition: all 0.3s linear;
+		opacity: 0;
+	}
 	div.viz-container > :global(svg .barchart-lines) {
 		opacity: 0;
-		transform: scaleX(0);
 	}
 	div.viz-container > :global(svg:hover mask > path) {
 		opacity: 1;
-		animation: 1s forwards grow;
+		transform: scaleX(1);
 	}
 	div.viz-container > :global(svg:hover .barchart-lines) {
 		opacity: 1;
 		transform: scaleX(1);
-		transition: opacity 0.3s ease 0.75s;
+		transition: opacity 0.3s linear 0.3s;
 	}
 	div.viz-container > :global(svg:hover .spinner) {
 		opacity: 0.6;
@@ -312,7 +312,6 @@
 		transform-origin: center;
 		position: relative;
 		z-index: 1;
-		transition: opacity 0.3s ease;
 	}
 	div.viz-container :global(.barchart-target) {
 		position: relative;
@@ -325,11 +324,6 @@
 	div.viz-container :global(.barchart-rect-target) {
 		position: relative;
 		z-index: 0;
-	}
-	@keyframes grow {
-		100% {
-			transform: scaleX(1);
-		}
 	}
 	div.tooltip {
 		position: absolute;
