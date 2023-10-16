@@ -60,7 +60,7 @@
 		height: 100%;
 		background-color: var(--bg-color-light);
 	}
-	section :last-of-type > div::after {
+	section > div:last-of-type::after {
 		display: none;
 	}
 	section > div {
@@ -85,6 +85,7 @@
 		background-color: var(--theme-color);
 		z-index: 1;
 		position: relative;
+		padding: 2rem 0;
 		margin: 2rem 0;
 	}
 	section > div:hover :global(svg > g > defs > mask > path.barchart) {
