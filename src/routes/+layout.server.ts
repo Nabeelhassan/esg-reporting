@@ -1,7 +1,7 @@
 import type { LayoutServerLoad } from './$types';
 import { redirect } from '@sveltejs/kit';
 
-export const load = (async ({ fetch, cookies }) => {
+export const load = (async ({ fetch, cookies, url }) => {
 	const intro = cookies.get('intro');
 	if (!intro) throw redirect(307, '/intro');
 	try {
@@ -23,7 +23,8 @@ export const load = (async ({ fetch, cookies }) => {
 					pillar: 'governance',
 					color: '#37C58E'
 				}
-			]
+			],
+			url: url.pathname
 		};
 	} catch (error: any) {
 		throw new Error(error);

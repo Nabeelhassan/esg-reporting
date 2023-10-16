@@ -1,5 +1,6 @@
 <script lang="ts">
-	import * as d3 from 'd3';
+	import { draw } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
 	export let areaGenerator1;
 	export let newData;
 	export let maxData;
