@@ -39,7 +39,7 @@
 		justify-content: space-between;
 		background-color: var(--theme-color);
 		border-bottom: solid 1px var(--blue-color);
-		z-index: 1;
+		z-index: 100;
 	}
 	nav > div {
 		padding: 1rem 2rem;

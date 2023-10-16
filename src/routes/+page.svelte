@@ -5,6 +5,7 @@
 	import LandSection from '../components/landSection/LandSection.svelte';
 	import { writable } from 'svelte/store';
 	import ExploreMoreSection from '../components/ExploreMoreSection/ExploreMoreSection.svelte';
+	import CompanyRankingSection from '../components/sections/CompanyRankingSection.svelte';
 	const count = writable(0);
 
 	// const pillars = data.data.map((item) => item.group);
@@ -45,7 +46,7 @@
 
 <ExploreMoreSection {page} />
 
-<!-- <CompanyRankingSection {data} year={'2026'} {count} /> -->
+<CompanyRankingSection {data} year={'2026'} {count} />
 
 <!--
 

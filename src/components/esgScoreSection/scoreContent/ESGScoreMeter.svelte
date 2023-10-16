@@ -2,6 +2,12 @@
 	export let data;
 	export let year;
 	export let companyData;
+	const index = companyData.score.ESG[year] < 0.33 ? 0 : companyData.score.ESG[year] < 0.66 ? 1 : 2;
+	import { scale } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+
+	const colors = ['#FF4136', '#FFB617', '#179EFF'];
+	console.log(index, colors[index]);
 </script>
 
 <section>
@@ -14,7 +20,10 @@
 	</div>
 	<div class="bar-top-container">
 		<div class="bar-container">
-			<div style="width: {companyData.score.ESG[year] * 100}%;" class="bar-value" />
+			<div
+				style="width: {companyData.score.ESG[year] * 100}%; background-color: {colors[index]};"
+				class="bar-value"
+			/>
 			<div class="line-container">
 				<div class="line" />
 				<div class="line" />
@@ -47,14 +56,13 @@
 	}
 	.bar-container {
 		width: 100%;
-		height: 5px;
+		height: 8px;
 		background-color: white;
 		position: relative;
 		border-radius: 10px;
 	}
 	.bar-value {
-		height: 5px;
-		background-color: var(--blue-color);
+		height: 8px;
 		position: absolute;
 		left: 0;
 		top: 0;
@@ -66,7 +74,7 @@
 	}
 
 	.line {
-		height: 10px;
+		height: 16px;
 		border-right: solid 1px white;
 
 		position: absolute;

@@ -7,6 +7,8 @@
 	export let companyData;
 	export let year;
 	export let count;
+	export let maxWidth;
+	export let allCompanies;
 	$: width = 0;
 	$: height = 0;
 	$: margin = { top: 0, right: 0, bottom: 0, left: 0 };
@@ -45,17 +47,18 @@
 	onMount(async () => {
 		// set the dimensions and margins of the graph
 		if (!container) return;
-		const aspectRatio = 446.09 / 710.01;
+		const aspectRatio = 710.01 / 446.09;
 
 		margin = {
-			top: 8,
-			right: 54,
-			bottom: 8,
-			left: 54
+			top: allCompanies ? 0 : 8,
+			right: allCompanies ? 32 : 54,
+			bottom: allCompanies ? 0 : 8,
+			left: allCompanies ? 32 : 54
 		};
 
-		width = container.offsetHeight * aspectRatio - margin.right - margin.left;
-		height = container.offsetHeight - margin.top - margin.bottom;
+		width = container.offsetWidth / aspectRatio - margin.right - margin.left;
+		if (maxWidth) maxWidth.set(width);
+		height = container.offsetWidth - margin.top - margin.bottom;
 		const maxRotate = 30;
 		rotation = -maxRotate + companyData.score.ESG[year] * maxRotate;
 
@@ -246,7 +249,13 @@
 			transform="translate({margin.left} {margin.top})"
 		>
 			{#await imports['SpinPath']() then module}
-				<svelte:component this={module.default} {newData} {maxData} {areaGenerator1} />
+				<svelte:component
+					this={module.default}
+					{newData}
+					{maxData}
+					{areaGenerator1}
+					allCompanies={allCompanies && companyData.name === 'Nike'}
+				/>
 			{/await}
 
 			{#await imports['SpinBarsContainer']() then module}
@@ -276,11 +285,9 @@
 
 <style>
 	div.viz-container {
-		height: 100%;
 		width: 100%;
 		display: flex;
 		justify-content: center;
-		min-width: 30rem;
 		flex: 1 1 100%;
 	}
 	div.viz-container > :global(svg .spinner) {

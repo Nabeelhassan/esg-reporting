@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let colors;
 	export let category;
-	console.log(category);
 	const ghgEmissions = ['GHG Scope 1', 'GHG Scope 2', 'GHG Scope 3'];
 	const energyConsumption = [
 		'Energy consumption renewable sources',
