@@ -50,7 +50,7 @@
 		<div>
 			<h2>Governance</h2>
 			<ul>
-				<li>businessConduct (i.e. corruption or bribery, payment practices)</li>
+				<li>Business conduct (i.e. corruption or bribery, payment practices)</li>
 			</ul>
 		</div>
 	</div>

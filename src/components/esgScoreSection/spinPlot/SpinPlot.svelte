@@ -172,7 +172,6 @@
 				value: 0
 			}
 		];
-		const includedGroups = ['social', 'governance', 'environment'];
 		maxData = [
 			{
 				group: 'startSvg',
@@ -277,7 +276,8 @@
 	<div class="tooltip-container" style="width: {width}px; height: {height}px">
 		{#if $currentData.name}
 			<div class="tooltip" style="--left: {$currentData.x}px; --top: {$currentData.y}px">
-				<p>{$currentData.name}: {$currentData.value}</p>
+				<p>{$currentData.name}</p>
+				<p>score: {$currentData.value}/1</p>
 			</div>
 		{/if}
 	</div>
