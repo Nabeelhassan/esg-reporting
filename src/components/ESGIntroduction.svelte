@@ -60,13 +60,6 @@
 		`
 	];
 	$: count = 0;
-
-	onMount(() => {
-		console.log(window.scrollY);
-		if (window.scrollY === 0) {
-			document.body.style.overflow = 'hidden';
-		}
-	});
 </script>
 
 <section class={count === introData.length ? 'hide' : ''}>
@@ -91,21 +84,12 @@
 				type="button"
 				on:click={() => {
 					count++;
-					if (count === introData.length - 1) {
-						document.body.style.overflow = '';
-					}
 				}}
 			>
 				Next
 			</button>
 		{:else}
-			<button
-				on:click={() => {
-					const land = document.getElementById('land')?.getBoundingClientRect();
-					window.scrollTo(0, land.y - 64);
-					setTimeout(() => (count = 0), 1000);
-				}}>Read report</button
-			>
+			<a href="/">Explore ESG data</a>
 		{/if}
 	</div>
 </section>

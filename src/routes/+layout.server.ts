@@ -1,6 +1,9 @@
 import type { LayoutServerLoad } from './$types';
+import { redirect } from '@sveltejs/kit';
 
-export const load = (async ({ fetch }) => {
+export const load = (async ({ fetch, cookies }) => {
+	const intro = cookies.get('intro');
+	if (!intro) throw redirect(307, '/intro');
 	try {
 		const res = await fetch('/new-dummy.json');
 		const data = res.json();
