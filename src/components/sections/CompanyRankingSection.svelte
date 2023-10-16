@@ -25,7 +25,9 @@
 				<p>{value.value0}</p>
 				<div
 					class="plot-container"
-					style="display: grid; grid-template-columns: repeat({value.companies.length}, 1fr)"
+					style="display: grid; grid-template-columns: repeat({value.companies.length > 3
+						? 3
+						: value.companies.length}, 1fr)"
 				>
 					{#each value.companies as company}
 						<SpinPlotContainerAllCompanies companyData={company} {count} {year} />
@@ -87,6 +89,7 @@
 		position: relative;
 		padding: 2rem 0;
 		margin: 2rem 0;
+		flex-wrap: wrap;
 	}
 	section > div:hover :global(svg > g > defs > mask > path.barchart) {
 		transform: scaleX(1);

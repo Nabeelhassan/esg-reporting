@@ -3,30 +3,31 @@
 	import { fade } from 'svelte/transition';
 
 	const introData = [
+		/* html */ `
+	<h1>
+		From 2025 and onwards the European Union forces companies that meet two of the three following
+		conditions to report on sustainability topics.
+	</h1>
+	`,
+		/* html */ `
+	<h1>These three conditions are:</h1>
+	<ul>
+		<li>Balance sheet of €20+ million</li>
+		<li>Turnover of €40+ million</li>
+		<li>250+ average employees over the reporting year</li>
+	</ul>
+	`,
+		/* html */
 		`
-			<h1>
-				From 2025 and onwards the European Union forces companies that meet two of the three following
-				conditions to report on sustainability topics.
-			</h1>
-		`,
-		`
-		<h1>These three conditions are:</h1>
-		<ul>
-			<li>Balance sheet of €20+ million</li>
-			<li>Turnover of €40+ million</li>
-			<li>250+ average employees over the reporting year</li>
-		</ul>
-		`,
-		`
-		<h1>The sustainability topics are divided into three pillars</h1>
+	<h1>The sustainability topics are divided into three pillars</h1>
 	<div class="three-columns">
 		<h2>Environment</h2>
 		<h2>Social</h2>
 		<h2>Governance</h2>
 	</div>
-		`,
-		`
-		<h1>Within these pillars are numerous categories, namely:</h1>
+	`,
+		/* html */ `
+	<h1>Within these pillars are numerous categories, namely:</h1>
 	<div class="three-columns">
 		<div>
 			<h2>Environment</h2>
@@ -54,11 +55,58 @@
 			</ul>
 		</div>
 	</div>
+	`,
+		/* html */ `
+	<h1>Every company's impact can be calculated into a score called an ESG score</h1>
+	`,
+		/* html */ `
+			<h1>If all companies' score well on ESG topics, the balance of the world will be kept in check</h1>
 		`,
-		`
-			<h1>Let's dive into the report...</h1>
-		`
+		/* html */ `
+		<div class="two-columns">
+			<div>
+				<h1>Which is why the spinning top was brought to life</h1>
+			</div>
+			<div class="img-container">
+				<img src="/images/spinplot-without-bars.svg" alt="">
+			</div>
+		</div>
+	`,
+		/* html */ `
+	<div class="two-columns">
+			<div>
+				<h2>The spinning top will be straight when a company performs well on ESG topics and will be tilted if the company doesn't</h2>
+			</div>
+			<div class="img-container">
+				<img src="/images/spinplot-without-bars.svg" alt="">
+			</div>
+		</div>
+	`,
+		/* html */ `
+	<div class="two-columns">
+			<div>
+				<h2>The tilting will result in the spinner falling off the balancing bord</h2>
+			</div>
+			<div class="img-container">
+				<img src="/images/spinplot-without-bars.svg" alt="">
+			</div>
+		</div>
+	`,
+		/* html */ `
+		<div class="two-columns">
+			<div>
+				<h2>The topspin is calculated by bar charts. These bar charts represent the values of the individual Environment, Social, and Governance scores</h2>
+			</div>
+			<div class="img-container">
+				<img src="/images/spinplot-with-bars.svg" alt="">
+			</div>
+		</div>
+	`,
+		/* html */ `
+		<h1>Let's dive into the report</h1>
+	`
 	];
+
 	$: count = 0;
 </script>
 
@@ -141,5 +189,17 @@
 	}
 	article :global(ul > li) {
 		font-size: 1rem;
+	}
+	article :global(div.two-columns) {
+		display: flex;
+	}
+	article :global(div.two-columns > div) {
+		flex: 1 1 100%;
+	}
+	article :global(div.two-columns > div.img-container > img) {
+		width: 100%;
+		height: 100%;
+		max-height: 27rem;
+		object-fit: contain;
 	}
 </style>
