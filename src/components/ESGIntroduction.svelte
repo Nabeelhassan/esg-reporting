@@ -11,11 +11,11 @@
 	`,
 		/* html */ `
 	<h1>These three conditions are:</h1>
-	<ul>
-		<li>Balance sheet of €20+ million</li>
-		<li>Turnover of €40+ million</li>
-		<li>250+ average employees over the reporting year</li>
-	</ul>
+	<div>
+		<h2>Balance sheet of €20+ million</h2>
+		<h2>Turnover of €40+ million</h2>
+		<h2>250+ average employees over the reporting year</h2>
+	</div>
 	`,
 		/* html */
 		`
