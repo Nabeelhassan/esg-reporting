@@ -13,9 +13,9 @@
 		FulltimeParttime: () => import('../charts/FulltimeParttime.svelte'),
 		MaleFemaleTotal: () => import('../charts/MaleFemaleTotal.svelte'),
 		PaymentPractices: () => import('../charts/PaymentPractices.svelte'),
-		CorruptionBribery: () => import('../charts/CorruptionBribery.svelte')
+		CorruptionBribery: () => import('../charts/CorruptionBribery.svelte'),
+		GHGEmissionsChart: () => import('../charts/GHGEmissionsChart.svelte')
 	};
-	let chosenChart;
 	let storeData = data;
 	if (chartString === 'Treemap') {
 		const dontInclude = [

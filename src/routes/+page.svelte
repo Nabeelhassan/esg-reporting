@@ -6,6 +6,7 @@
 	import { writable } from 'svelte/store';
 	import ExploreMoreSection from '../components/ExploreMoreSection/ExploreMoreSection.svelte';
 	import CompanyRankingSection from '../components/sections/CompanyRankingSection.svelte';
+	import EsgIntroduction from '../components/ESGIntroduction.svelte';
 	const count = writable(0);
 
 	// const pillars = data.data.map((item) => item.group);
@@ -36,6 +37,7 @@
 	};
 </script>
 
+<EsgIntroduction />
 <LandSection companyData={nike} {data} {radialGradientString} year={'2026'} content={nikeContent} />
 
 <EsgScoreSection companyData={nike} content={contentPast} {count} year={'2025'} />
@@ -44,13 +46,8 @@
 
 <EsgScoreSection companyData={nike} content={contentFuture} {count} year={'2030'} />
 
-<ExploreMoreSection {page} />
-
 <CompanyRankingSection {data} year={'2026'} {count} />
-
-<!--
-
- -->
+<ExploreMoreSection {page} />
 
 <style>
 	:global(#title) {

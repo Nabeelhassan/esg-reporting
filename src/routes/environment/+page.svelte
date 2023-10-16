@@ -27,8 +27,8 @@
 <EsgCategorySection
 	data={nike}
 	category={'ghgEmissions'}
-	chartString={'Treemap'}
-	description={`These values represent Nike's GHG emissions divided by Scopes 1, 2 and 3 expressed in C02eq.`}
+	chartString={'GHGEmissionsChart'}
+	description={`These values represent Nike's GHG emissions divided by Scopes 1, 2 and 3 expressed in C02. GHG Scope 1 are all of the emissions from own operations. GHG Scope 2 are all of the emissions from energy consumption. GHG Scope 3 are emissions from external factors.`}
 	{pillarColor}
 	tableContent={tableContentGHG}
 />
@@ -37,7 +37,7 @@
 	data={nike}
 	category={'waste'}
 	chartString={'CircleWaste'}
-	description={`These values represent Nike's waste generation and recycling, measured in metric tonnes.`}
+	description={`These values represent Nike's waste generation and recycling, expressed in metric tonnes.`}
 	{pillarColor}
 	tableContent={tableContentWaste}
 />
@@ -46,7 +46,7 @@
 	data={nike}
 	category={'energyConsumption'}
 	chartString={'Treemap'}
-	description={`These values represent Nike's Energy Consumption`}
+	description={`These values represent Nike's Energy Consumption expressed in megawatt per hour (Mwh).`}
 	{pillarColor}
 	tableContent={tableContentEnergyConsumption}
 />
@@ -55,7 +55,7 @@
 	data={nike}
 	category={'water'}
 	chartString={'WaterBars'}
-	description={`These values represent Nike's water restoration, water consumption, and water recycling efforts.`}
+	description={`These values represent Nike's water restoration, water consumption, and water recycling efforts expressed in billion liters.`}
 	{pillarColor}
 	tableContent={tableContentWater}
 />

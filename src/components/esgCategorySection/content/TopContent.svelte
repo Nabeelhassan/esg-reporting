@@ -13,7 +13,7 @@
 
 <section>
 	<h1>{title}</h1>
-	<h2>Score: {dataScore}</h2>
+	<h2>Score: {dataScore}/1</h2>
 	<p>
 		{description}
 	</p>
