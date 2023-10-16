@@ -14,7 +14,8 @@
 		MaleFemaleTotal: () => import('../charts/MaleFemaleTotal.svelte'),
 		PaymentPractices: () => import('../charts/PaymentPractices.svelte'),
 		CorruptionBribery: () => import('../charts/CorruptionBribery.svelte'),
-		GHGEmissionsChart: () => import('../charts/GHGEmissionsChart.svelte')
+		GHGEmissionsChart: () => import('../charts/GHGEmissionsChart.svelte'),
+		HealthSafety: () => import('../charts/HealthSafety.svelte')
 	};
 	let storeData = data;
 	if (chartString === 'Treemap') {

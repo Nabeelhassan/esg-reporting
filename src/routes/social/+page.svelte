@@ -23,6 +23,10 @@
 			item.name === 'Percentage of male employees' ||
 			item.name === 'Percentage of female employees'
 	);
+	const tableContentHealth = nike.values.filter(
+		(item) => item.pillar_subcategory === 'healthAndSafety'
+	);
+	console.log(tableContentHealth);
 </script>
 
 <EsgCategorySection
@@ -49,4 +53,13 @@
 	description={`These values represent Nike's Top management gender distribution.`}
 	{pillarColor}
 	tableContent={tableContentManagement}
+/>
+
+<EsgCategorySection
+	data={nike}
+	category={'healthAndSafety'}
+	chartString={'HealthSafety'}
+	description={`These values represent Nike's Health and Safety incident rate and lost time rate.`}
+	{pillarColor}
+	tableContent={tableContentHealth}
 />
