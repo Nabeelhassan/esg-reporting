@@ -11,7 +11,7 @@
 	`,
 		/* html */ `
 	<h1>These three conditions are:</h1>
-	<div>
+	<div class="three-columns">
 		<h2>Balance sheet of €20+ million</h2>
 		<h2>Turnover of €40+ million</h2>
 		<h2>250+ average employees over the reporting year</h2>

@@ -19,8 +19,8 @@
 		</ul>
 		<h2><b>S</b>ocial</h2>
 		<p>
-			The second pillar of ESG is Social. This pillar is about the workforce and their gender
-			diversity, privacy policies, work incidents, how the company impacts communities in
+			The second pillar of <b>ESG</b> is <b>S</b>ocial. This pillar is about the workforce and their
+			gender diversity, privacy policies, work incidents, how the company impacts communities in
 			surrounding areas and more. The main categories of Social are:
 		</p>
 
@@ -32,9 +32,10 @@
 		</ul>
 		<h2><b>G</b>overnance</h2>
 		<p>
-			The third and final pillar of ESG is Governance. This pillar is about board diversity, meeting
-			attendance, corruption or bribery incidents, political influence and lobbying activities,
-			payment practices. For Governance there is only one main category which is:
+			The third and final pillar of <b>ESG</b> is <b>G</b>overnance. This pillar is about board
+			diversity, meeting attendance, corruption or bribery incidents, political influence and
+			lobbying activities, payment practices. For Governance there is only one main category which
+			is:
 		</p>
 		<ul><li>Business conduct</li></ul>
 		<p>
